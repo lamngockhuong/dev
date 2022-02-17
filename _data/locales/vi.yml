@@ -1,0 +1,78 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Bài viết
+  category: Danh mục
+  tag: Từ khóa
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Trang chủ
+  categories: Danh mục
+  tags: Từ khóa
+  archives: Lưu trữ
+  about: Giới thiệu
+
+# the text displayed in the search bar & search results
+search:
+  hint: tìm kiếm
+  cancel: Hủy
+  no_results: Oops! Không có kết quả nào.
+
+panel:
+  lastmod: Cập nhật gần đây
+  trending_tags: Từ khóa nổi bật
+  toc: Mục lục
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Bài đăng này được cấp phép :LICENSE_NAME bởi tác giả.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Một số quyền được bảo lưu.
+  verbose: >-
+    Trừ khi có ghi chú khác, các bài đăng trên trang web này được cấp phép
+     Creative Commons Attribution 4.0 International (CC BY 4.0) License bởi tác giả.
+
+meta: Xây dựng trên :PLATFORM với giao diện :THEME.
+
+not_found:
+  statment: Xin lỗi, mình đã đặt nhầm URL đó hoặc nó trỏ đến một thứ không tồn tại.
+  hint_template: :HEAD_BAK để thử tìm lại hoặc tìm kiếm trên :ARCHIVES_PAGE.
+  head_back: Quay lại Trang chủ
+  archives_page: trang Lưu trữ
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Bởi
+  posted: Được đăng
+  updated: Được cập nhật
+  words: từ
+  pageview_measure: lượt xem
+  read_time:
+    unit: phút
+    prompt: ' để đọc'
+  relate_posts: Further Reading
+  share: Chia sẻ
+  button:
+    next: Mới hơn
+    previous: Cũ hơn
+    copy_code:
+      succeed: Đã sao chép!
+    share_link:
+      title: Sao chép liên kết
+      succeed: Sao chép liên kết thành công!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Đã ghim
+
+# categories page
+categories:
+  category_measure: danh mục
+  post_measure: bài viết
