@@ -21,6 +21,18 @@ console.log(uniqueLangs);
 const uniqueLangs2 = [...new Set(languages)];
 console.log(uniqueLangs2);
 ```
-Demo: https://jsfiddle.net/lamngockhuong/fxdvLsh4/9/
+👉 [Demo 1](https://jsfiddle.net/lamngockhuong/fxdvLsh4)
+
+## 2. Replace the specific value in an array
+Using:
+`Array.splice(index, howmany, item1, ..., itemX)`
+```javascript
+const languages = ['java', 'php', 'ruby', 'python', 'php', 'python'];
+console.log(languages);
+
+languages.splice(0, 2, 'go', 'js', 'perl');
+console.log(languages); // return ["go", "js", "perl", "ruby", "python", "php", "python"]
+```
+👉 [Demo 2](https://jsfiddle.net/lamngockhuong/pt2kxcqo/)
 
 ## References
