@@ -3,7 +3,7 @@ title: Javascript Array tips and tricks
 author:
   name: Lam Ngoc Khuong
   link: https://github.com/lamngockhuong
-date: 2022-03-21 12:10:00 +0700
+date: 2022-03-21 11:40:00 +0700
 categories: [Javascript]
 tags: [javascript, array, tips, tricks]
 ---
