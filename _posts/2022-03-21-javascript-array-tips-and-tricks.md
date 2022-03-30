@@ -70,4 +70,19 @@ console.log(max); // 80
 ```
 👉 [Demo 4](https://jsfiddle.net/lamngockhuong/jgzfwe3p/)
 
+## 5. Filling an array with values
+```javascript
+let values = Array.from({length: 3}); // Creating an Array with undefined
+console.log(values); // [undefined, undefined, undefined]
+
+values = Array.from({length: 3}, () => 0); // Creating an Array with small integers
+console.log(values); // [ 0, 0, 0 ]
+
+values = Array.from({length: 3}, () => ({})); // Creating an Array with unique (unshared) objects
+console.log(values); // [ {}, {}, {} ]
+
+values = Array.from({length: 3}, (x, i) => i); // Creating an Array with ascending integers
+console.log(values); // [ 0, 1, 2 ]
+```
+👉 [Demo 5](https://jsfiddle.net/lamngockhuong/s2rz79b5/)
 ### Updating...
