@@ -1,8 +1,6 @@
 ---
 title: Postman on Linux
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-03-24 15:00:00 +0700
 categories: [Linux]
 tags: [linux, ubuntu, postman]
