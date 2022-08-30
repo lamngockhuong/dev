@@ -1,5 +1,5 @@
 ---
-title: Installing or updating the latest version of the AWS CLI
+title: Installing, uninstalling or updating the latest version of the AWS CLI
 author: lamngockhuong
 date: 2022-08-30 17:45:00 +0700
 categories: [AWS]
