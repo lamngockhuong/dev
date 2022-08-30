@@ -1,8 +1,6 @@
 ---
 title: UUID in NodeJS
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-03-23 21:25:00 +0700
 categories: [NodeJS]
 tags: [javascript, uuid, nodejs]
