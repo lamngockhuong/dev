@@ -1,8 +1,6 @@
 ---
 title: What's the meaning of /gi in a regex?
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-02-24 17:10:00 +0700
 categories: [Javascript]
 tags: [javascript, regex]
