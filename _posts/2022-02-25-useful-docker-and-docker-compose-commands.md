@@ -1,8 +1,6 @@
 ---
 title: Useful Docker & docker-compose commands
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-02-25 15:00 +0700
 categories: [Docker]
 tags: [docker]
