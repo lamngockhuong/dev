@@ -1,8 +1,6 @@
 ---
 title: Escape the underscore and the percent when searching by like, ilike expressions in PostgreSQL
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-02-25 10:10:00 +0700
 categories: [Javascript]
 tags: [javascript, sql, postgresql]
