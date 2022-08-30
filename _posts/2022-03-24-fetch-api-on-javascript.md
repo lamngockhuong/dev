@@ -1,8 +1,6 @@
 ---
 title: Fetch API on Javascript
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-03-24 18:15:00 +0700
 categories: [Javascript]
 tags: [javascript, fetchapi]
