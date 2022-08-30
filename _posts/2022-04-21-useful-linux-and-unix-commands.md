@@ -1,8 +1,6 @@
 ---
 title: Useful Linux and Unix commands
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-04-21 10:25:00 +0700
 categories: [Linux]
 tags: [linux, unix, commands, ubuntu, debian, alpine]
