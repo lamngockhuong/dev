@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Jekyll Chirpy Text and Typography
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-02-17 22:08 +0700
 categories: [Blogging, Jekyll]
 tags: [typography]
