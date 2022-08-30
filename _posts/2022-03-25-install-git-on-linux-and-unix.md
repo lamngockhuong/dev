@@ -1,8 +1,6 @@
 ---
 title: Install Git on Linux and Unix
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-03-25 11:10:00 +0700
 categories: [Linux]
 tags: [git, linux, unix, ubuntu]
