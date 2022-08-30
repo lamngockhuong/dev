@@ -1,8 +1,6 @@
 ---
 title: Suppress Startup log in NestJS
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-04-12 09:00:00 +0700
 categories: [NestJS]
 tags: [nestjs, javascript, typescript, log]
