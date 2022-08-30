@@ -1,8 +1,6 @@
 ---
 title: Javascript Keycode Enums
-author:
-  name: Lam Ngoc Khuong
-  link: https://github.com/lamngockhuong
+author: lamngockhuong
 date: 2022-02-13 17:30:00 +0700
 categories: [Javascript]
 tags: [javascript]
