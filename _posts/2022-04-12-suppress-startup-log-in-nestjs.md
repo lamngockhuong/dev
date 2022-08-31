@@ -19,6 +19,7 @@ const app = await NestFactory.create(AppModule, {
 });
 ...
 ```
+
 ```typescript
 // bootstrap-logger.ts
 
@@ -50,6 +51,7 @@ export const bootstrapLogger = () => {
   return WinstonModule.createLogger({ transports: [transport] });
 };
 ```
+
 ```typescript
 // custom-console.ts
 

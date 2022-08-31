@@ -7,6 +7,7 @@ tags: [docker]
 ---
 
 ## Docker
+
 ### Commonly used Docker commands
 
 | Command                      | Description |
@@ -36,7 +37,7 @@ tags: [docker]
 | `docker inspect <image id or name>` | Show the docker image information. |
 | `docker inspect <container id or name>` | Show the docker container information. |
 | `docker inspect -f '{{"{{" }}.Name}} {{"{{" }}range .NetworkSettings.Networks}}{{"{{" }}.IPAddress}}{{"{{" }}end}}' $(docker ps -a -q)` | Check the name and IP Address of the container is running |
-| `docker inspect --format='{{"{{" }}.State.FinishedAt}}' <container_id or container_name> ` | Show container finish time |
+| `docker inspect --format='{{"{{" }}.State.FinishedAt}}' <container_id or container_name>` | Show container finish time |
 | `docker inspect --format='{{"{{" }}.LogPath}}' <container_id hoặc container_name>` | Show the container log path |
 
 ## Docker Compose

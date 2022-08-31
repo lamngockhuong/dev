@@ -35,6 +35,7 @@ postData('https://jsonplaceholder.typicode.com/posts', {
 ```
 
 ## GET method
+
 ```javascript
 async function getData(url = '') {
   const response = await fetch(url, {
@@ -58,5 +59,7 @@ getData('https://jsonplaceholder.typicode.com/posts')
 ```
 
 👉 [Demo](https://jsfiddle.net/lamngockhuong/3amdq42x/)
+
 ## References
+
 + [Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)

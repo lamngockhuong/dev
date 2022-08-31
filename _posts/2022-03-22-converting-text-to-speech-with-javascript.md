@@ -6,6 +6,7 @@ categories: [Javascript]
 tags: [javascript]
 ---
 ## API Web Speech & Demo
+
 ```javascript
 function speak (message) {
    var msg = new SpeechSynthesisUtterance(message)
@@ -16,6 +17,9 @@ function speak (message) {
 
 speak('Hello. I am Khuong')
 ```
+
 👉 [Demo](https://jsfiddle.net/lamngockhuong/ubt9qjgr/)
+
 ## References
+
 + [SpeechSynthesisUtterance](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)

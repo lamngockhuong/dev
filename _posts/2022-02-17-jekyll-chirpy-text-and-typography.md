@@ -14,7 +14,9 @@ image:
 ---
 
 ## Titles
+
 ---
+
 # H1 - heading
 
 <h2 data-toc-skip>H2 - heading</h2>
@@ -73,6 +75,7 @@ Moon
 ## Block Quote
 
 > This line shows the _block quote_.
+
 ## Prompts
 
 > An example showing the `tip` type prompt.
@@ -83,6 +86,7 @@ Moon
 {: .prompt-warning }
 > An example showing the `danger` type prompt.
 {: .prompt-danger }
+
 ## Tables
 
 | Company                      | Contact          | Country |
@@ -197,6 +201,7 @@ fi;
   "colors/light-typography",
   "colors/dark-typography"
 ```
+
 {: file='_sass/jekyll-theme-chirpy.scss'}
 
 ## Reverse Footnote

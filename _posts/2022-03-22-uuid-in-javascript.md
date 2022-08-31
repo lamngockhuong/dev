@@ -6,6 +6,7 @@ categories: [Javascript]
 tags: [javascript, uuid]
 ---
 ## UUID (Universally Unique IDentifier)
+
 ```javascript
 function uuid() {
   var temp_url = URL.createObjectURL(new Blob());
@@ -18,6 +19,9 @@ for (var i = 0; i < 10; ++i) {
   console.log(uuid());
 }
 ```
+
 👉 [Demo](https://jsfiddle.net/lamngockhuong/m90bw8yr/)
+
 ## References
+
 + [UUID](https://abhishekdutta.org/blog/standalone_uuid_generator_in_javascript.html)
