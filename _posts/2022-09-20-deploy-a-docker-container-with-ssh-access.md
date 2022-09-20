@@ -39,7 +39,7 @@ docker run -d -P --name test_sshd sshd_ubuntu
 3. Locate the IP address of the running container
 
 ```console
-docker inspect --format='{{"{{" }}range .NetworkSettings.Networks}}{{"{{" }}.IPAddress}}{{"{{" }}end}}' test_sshd`
+docker inspect --format='{{"{{" }}range .NetworkSettings.Networks}}{{"{{" }}.IPAddress}}{{"{{" }}end}}' test_sshd
 
 // ex output: 172.17.0.2
 ```
