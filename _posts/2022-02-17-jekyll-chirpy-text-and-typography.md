@@ -8,7 +8,7 @@ tags: [typography]
 math: true
 mermaid: true
 image:
-  src: /posts/2022/02/devices-mockup.png
+  path: /posts/2022/02/devices-mockup.png
   width: 800
   height: 500
 ---
