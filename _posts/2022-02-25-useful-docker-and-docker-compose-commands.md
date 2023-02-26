@@ -20,7 +20,7 @@ tags: [docker]
 | `docker commit <container> <image_name>:<image_tag>` | Create a new docker image from a container is running. Example:<br> `docker commit c3f275de7e0a  khuongdev/testimage:version3`|
 | `docker ps` | Show the health status of a container. |
 | `docker ps -a` | Show all containers |
-| `docker ps -a --format "{{"{{" }}.CreatedAt}}"` | Show container start time |
+| `docker ps -a --format "{{.CreatedAt}}"` | Show container start time |
 | `docker create -it [--name  <container name>] <image_name:tag or image_id>` | Create new container and run it. Use `-d` flag for daemon mode |
 | `docker rename old_name new_name` | Rename a container |
 | `docker logs <container>` | Show the container logs. For examples:<br>1. `docker logs --since 2022-10-19T12:00 devcontainer`<br>2. `docker logs --since 2022-03-13T10:00 --tail 10 devcontainer`<br>3. `docker logs --since 2019-03-13T10:00 --tail 10 --timestamps devcontainer`<br>4. `docker logs devcontainer -t 2>&1 \| grep "Caused by: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "`<br>5. `docker logs --tail=10 -f <container_id or container_name>` |
@@ -38,9 +38,9 @@ tags: [docker]
 | `docker volume inspect <one or more volume names>` | Show the volume informations|
 | `docker inspect <image id or name>` | Show the docker image information. |
 | `docker inspect <container id or name>` | Show the docker container information. |
-| `docker inspect -f '{{"{{" }}.Name}} {{"{{" }}range .NetworkSettings.Networks}}{{"{{" }}.IPAddress}}{{"{{" }}end}}' $(docker ps -a -q)` | Check the name and IP Address of the container is running |
-| `docker inspect --format='{{"{{" }}.State.FinishedAt}}' <container_id or container_name>` | Show container finish time |
-| `docker inspect --format='{{"{{" }}.LogPath}}' <container_id hoặc container_name>` | Show the container log path |
+| `docker inspect -f '{{.Name}} {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} $(docker ps -a -q)` | Check the name and IP Address of the container is running |
+| `docker inspect --format='{{.State.FinishedAt}}' <container_id or container_name>` | Show container finish time |
+| `docker inspect --format='{{.LogPath}}' <container_id hoặc container_name>` | Show the container log path |
 
 {% endraw %}
 
