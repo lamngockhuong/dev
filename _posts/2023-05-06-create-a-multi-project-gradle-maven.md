@@ -1,7 +1,7 @@
 ---
 title: Create a multi-project with Gradle/Maven
 author: lamngockhuong
-date: 2022-05-06 21:00:00 +0700
+date: 2023-05-06 21:00:00 +0700
 categories: [Gradle]
 tags: [gradle, maven, java, kotlin]
 ---
