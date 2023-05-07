@@ -9,7 +9,7 @@ tags: [gradle, maven, java, kotlin]
 
 (Groovy)
 
-```gradle
+```txt
 .
 ├── app
 │   ...
