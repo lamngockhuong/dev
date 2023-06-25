@@ -19,7 +19,7 @@ Matching Java Virtual Machines (2):
 
 Pick the version you want to be the default (20.0.1) then:
 
-`export JAßVA_HOME="/usr/libexec/java_home -v 20.0.1"`
+`export JAVA_HOME="/usr/libexec/java_home -v 20.0.1"`
 
 Now when you run `java -version` you will see:
 
@@ -32,7 +32,7 @@ OpenJDK 64-Bit Server VM Temurin-20.0.1+9 (build 20.0.1+9, mixed mode)
 Add the
 
 ```bash
-export JAVA_HOME=`/usr/libexec/java_home -v 20.0.1`
+export JAVA_HOME="/usr/libexec/java_home -v 20.0.1"
 
 ```
 
