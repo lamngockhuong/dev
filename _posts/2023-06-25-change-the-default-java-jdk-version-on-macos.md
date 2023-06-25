@@ -19,7 +19,7 @@ Matching Java Virtual Machines (2):
 
 Pick the version you want to be the default (20.0.1) then:
 
-`export JAVA_HOME=`/usr/libexec/java_home -v 20.0.1``
+`export JAßVA_HOME="/usr/libexec/java_home -v 20.0.1"`
 
 Now when you run `java -version` you will see:
 
