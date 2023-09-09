@@ -3,7 +3,7 @@ title: Change the default Java (JDK) version on macOS
 author: lamngockhuong
 date: 2023-06-25 13:05:00 +0700
 categories: [Java]
-tags: [Java, JDK, MacOS]
+tags: [java, jdk, macos]
 ---
 
 First run `/usr/libexec/java_home -V` to check available Java Virtual Machine:

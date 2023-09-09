@@ -3,7 +3,7 @@ title: Handling multiple Github accounts on MacOS
 author: lamngockhuong
 date: 2023-09-05 15:00:00 +0700
 categories: [Git]
-tags: [Git, Github]
+tags: [git, github]
 ---
 
 ## Guideline

@@ -3,7 +3,7 @@ title: How to set scroll direction of your mouse (reverse mouse wheel scroll)
 author: lamngockhuong
 date: 2023-09-06 09:45:00 +0700
 categories: [Windows]
-tags: [Windows 10, config, mouse]
+tags: [windows 10, config, mouse]
 ---
 
 ## Guideline
