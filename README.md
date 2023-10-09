@@ -2,6 +2,20 @@
 
 Powered by [Jekyll][jekyll] with [Chirpy][chirpy-theme] theme.
 
+## Setup
+
+**The first time:**
+
+```bash
+git clone https://github.com/lamngockhuong/dev.git
+git submodule update --init --remote --recursive
+```
+
+**Pull new source:**
+```
+git pull --recurse-submodules
+```
+
 ## Sponsoring
 
 If you like this blog and my content, please consider sponsoring it, and your support would be greatly appreciated.
