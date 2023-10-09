@@ -9,3 +9,7 @@ tags: [java, jdk, website]
 1. [Whichjdk](https://whichjdk.com/)
 
 Introduce JDK, OpenJDK and some openjdk distributions. And some recommendations for using the right distributions
+
+2. [Baeldung](https://www.baeldung.com/)
+
+This blog publishes to-the-point guides and courses, with a strong focus on building web applications, Spring, Spring Security, and RESTful APIs.
