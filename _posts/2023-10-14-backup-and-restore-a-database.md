@@ -3,7 +3,7 @@ title: Backup & Restore a database
 author: lamngockhuong
 date: 2023-10-14 16:15:00 +0700
 categories: [Database]
-tags: [mysql, postgresql]
+tags: [mysql, postgresql, docker]
 image:
   path: /posts/2023/10/sql.png
   width: 800

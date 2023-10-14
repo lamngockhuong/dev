@@ -3,7 +3,11 @@ title: AWS CLI for EC2
 author: lamngockhuong
 date: 2022-09-30 12:00:00 +0700
 categories: [AWS]
-tags: [aws, ec2, cli]
+tags: [aws, ec2, cli, linux]
+image:
+  path: /posts/2023/10/aws.png
+  width: 800
+  height: 500
 ---
 ## Examples
 

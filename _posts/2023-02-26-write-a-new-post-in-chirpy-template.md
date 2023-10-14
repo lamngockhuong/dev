@@ -6,6 +6,10 @@ date: 2023-02-26 13:00 +0700
 categories: [Blogging, Jekyll, Tutorial]
 tags: [typography, writing]
 render_with_liquid: false
+image:
+  path: /posts/2022/02/devices-mockup.png
+  width: 800
+  height: 500
 ---
 
 This tutorial will guide you how to write a post in the _Chirpy_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.

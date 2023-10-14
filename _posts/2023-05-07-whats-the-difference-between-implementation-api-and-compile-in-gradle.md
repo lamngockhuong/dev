@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2023-05-07 15:45:00 +0700
 categories: [Gradle]
 tags: [implementation, api, compile, compileonly, runtimeonly, testimplementation, testcompileonly, testruntimeonly]
+image:
+  path: /posts/2023/10/gradle.png
+  width: 800
+  height: 500
 ---
 
 ## Gradle

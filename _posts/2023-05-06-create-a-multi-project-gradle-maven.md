@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2023-05-06 21:00:00 +0700
 categories: [Gradle]
 tags: [gradle, maven, java, kotlin]
+image:
+  path: /posts/2023/10/gradle.png
+  width: 800
+  height: 500
 ---
 ## Gradle
 

@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2023-09-06 09:45:00 +0700
 categories: [Windows]
 tags: [windows 10, config, mouse]
+image:
+  path: /posts/2023/10/windows.png
+  width: 800
+  height: 500
 ---
 
 ## Guideline

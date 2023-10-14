@@ -3,7 +3,11 @@ title: Installing, uninstalling or updating the latest version of the AWS CLI
 author: lamngockhuong
 date: 2022-08-30 17:45:00 +0700
 categories: [AWS]
-tags: [aws, ubuntu, aws-cli]
+tags: [aws, ubuntu, aws-cli, linux]
+image:
+  path: /posts/2023/10/aws.png
+  width: 800
+  height: 500
 ---
 ## Linux
 

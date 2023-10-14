@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-02-25 15:00 +0700
 categories: [Docker]
 tags: [docker]
+image:
+  path: /posts/2023/10/docker.png
+  width: 800
+  height: 500
 ---
 
 ## Docker

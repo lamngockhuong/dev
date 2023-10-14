@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-09-20 18:20:00 +0700
 categories: [Linux]
 tags: [linux, docker, ubuntu, ssh]
+image:
+  path: /posts/2023/10/docker.png
+  width: 800
+  height: 500
 ---
 
 ## Prepare Dockerfile, image, container and IP address
