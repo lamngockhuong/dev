@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-03-23 21:25:00 +0700
 categories: [NodeJS]
 tags: [javascript, uuid, nodejs]
+image:
+  path: /posts/2023/10/js.png
+  width: 800
+  height: 500
 ---
 ## UUID (Universally Unique IDentifier)
 

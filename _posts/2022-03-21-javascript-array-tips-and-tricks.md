@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-03-21 11:40:00 +0700
 categories: [Javascript]
 tags: [javascript, array, tips, tricks]
+image:
+  path: /posts/2023/10/js.png
+  width: 800
+  height: 500
 ---
 
 ## 1. Remove duplicates value from an array
@@ -61,7 +65,7 @@ console.log(arr2.flat(2)); // Expected output: [0, 1, 2, [3, 4]]
 
 ```javascript
 let numbers = [50, 300, 400, 1500];
- 
+
 let min = Math.min(...numbers);
 console.log(min); // 80
  // Or

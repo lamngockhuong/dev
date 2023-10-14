@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2023-10-09 18:40:00 +0700
 categories: [Database]
 tags: [mysql, postgres]
+image:
+  path: /posts/2023/10/sql.png
+  width: 800
+  height: 500
 ---
 
 ## PostgreSQL
@@ -24,7 +28,7 @@ AND usename = 'apiuser'  # postgres username
 **Kill session by pid:**
 
 ```sql
-SELECT pg_terminate_backend(pid) 
+SELECT pg_terminate_backend(pid)
 FROM pg_stat_activity
 WHERE pid = '123456';
 ```

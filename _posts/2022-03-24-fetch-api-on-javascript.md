@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-03-24 18:15:00 +0700
 categories: [Javascript]
 tags: [javascript, fetchapi]
+image:
+  path: /posts/2023/10/js.png
+  width: 800
+  height: 500
 ---
 ## POST method
 

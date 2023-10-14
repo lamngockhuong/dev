@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2023-10-09 19:45:00 +0700
 categories: [Jvm]
 tags: [jvm, java, kotlin]
+image:
+  path: /posts/2023/10/java.png
+  width: 800
+  height: 500
 ---
 
 ## Kotlin

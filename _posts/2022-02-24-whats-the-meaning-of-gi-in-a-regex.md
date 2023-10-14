@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-02-24 17:10:00 +0700
 categories: [Javascript]
 tags: [javascript, regex]
+image:
+  path: /posts/2023/10/js.png
+  width: 800
+  height: 500
 ---
 
     g modifier: global. All matches (don't return on first match)

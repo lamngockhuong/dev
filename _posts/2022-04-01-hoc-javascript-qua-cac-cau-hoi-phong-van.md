@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-04-01 22:15:00 +0700
 categories: [Javascript]
 tags: [javascript, interview, question]
+image:
+  path: /posts/2023/10/js.png
+  width: 800
+  height: 500
 ---
 ## Cơ bản
 

@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-02-25 10:10:00 +0700
 categories: [Javascript]
 tags: [javascript, sql, postgresql]
+image:
+  path: /posts/2023/10/js.png
+  width: 800
+  height: 500
 ---
 
 To escape the underscore and the percent to be used in a pattern in like expressions use the escape character (`\`):

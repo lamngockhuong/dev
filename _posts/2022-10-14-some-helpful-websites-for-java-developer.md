@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-10-14 14:20:00 +0700
 categories: [Java]
 tags: [java, jdk, website]
+image:
+  path: /posts/2023/10/java.png
+  width: 800
+  height: 500
 ---
 
 1. [Whichjdk](https://whichjdk.com/)
