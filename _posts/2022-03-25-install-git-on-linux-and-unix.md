@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-03-25 11:10:00 +0700
 categories: [Linux]
 tags: [git, linux, unix, ubuntu]
+image:
+  path: /posts/2023/10/linux.png
+  width: 800
+  height: 500
 ---
 ## Install
 

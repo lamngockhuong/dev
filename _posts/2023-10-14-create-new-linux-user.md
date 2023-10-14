@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2023-10-14 14:30:00 +0700
 categories: [Linux]
 tags: [linux, ubuntu]
+image:
+  path: /posts/2023/10/linux.png
+  width: 800
+  height: 500
 ---
 
 ## Create new User

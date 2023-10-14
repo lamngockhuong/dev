@@ -4,6 +4,10 @@ author: lamngockhuong
 date: 2022-04-21 10:25:00 +0700
 categories: [Linux]
 tags: [linux, unix, commands, ubuntu, debian, alpine]
+image:
+  path: /posts/2023/10/linux.png
+  width: 800
+  height: 500
 ---
 ## Debian/Ubuntu Useful Commands
 
@@ -22,7 +26,7 @@ grep -rnwi '/path/file.js' -e 'keyword_not_case_sensitive'
 ### Show some logs, contents from line X to Y
 
 ```console
-X=1  
+X=1
 Y=5
 sed -n -e "$X,$Y p" -e "$Y q" file_name.txt
 ```
