@@ -34,7 +34,7 @@ docker exec [mysql_container_id] sh -c 'exec mysqldump -h[remote_host] --port=[p
 docker exec 127c93385edc sh -c 'exec mysqldump -h172.1.100.110 --port=3306 -uroot -p123456 db_test' > /Users/lamngockhuong/develop/backup-$(date +%y%m%d%H%M%S).sql
 ```
 
-## Restore with mysql
+### Restore with mysql
 
 👉 Restore the database to the local Docker container:
 
