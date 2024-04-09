@@ -1,7 +1,7 @@
 ---
 title: Register Scheduled Task on Windows Task Scheduler
 author: lamngockhuong
-date: 2024-04-10 17:00:00 +0700
+date: 2024-04-09 17:15:00 +0700
 categories: [PowerShell]
 tags: [windows, powershell, scheduled]
 image:
