@@ -9,10 +9,9 @@ image:
   width: 800
   height: 500
 ---
-
 ## 1. Check Status and Stop the Service
 
-```PowerShell
+```shell
 function Stop-Service {
     Param (
         [ValidateSet("TCP", "UDP")] $Method,
@@ -70,7 +69,7 @@ function Test-UDP-Status {
 
 How to use:
 
-```PowerShell
+```shell
 function test {
     $Process = Get-Process -Method TCP -Port 5050
     if ($Process) {
@@ -85,7 +84,7 @@ test
 
 ## 2. Waiting for the service to run
 
-```PowerShell
+```shell
 function Wait-For-Starting {
     Param (
         [ValidateSet("TCP", "UDP")] $Method,
@@ -103,7 +102,7 @@ function Wait-For-Starting {
             if($i-eq "15") { # timeout after 15s
                 Write-Host -f Red "Process can not run on port $Port."
                 Exit
-            }            
+            }
         }
     } elseif ($Method -eq "UDP") {
         while (-not (Test-UDP-Status $Port)) {
@@ -124,8 +123,8 @@ function Wait-For-Starting {
 
 How to use:
 
-```PowerShell
+```shell
 Wait-For-Starting -Method TCP -Port 5050
 ```
 
-***Note:** Refer to Test-TCP-Status and Test-UDP-Status Function from #1
+***Note:** Refer to Test-TCP-Status and Test-UDP-Status Function from [#1](#1-check-status-and-stop-the-service)
