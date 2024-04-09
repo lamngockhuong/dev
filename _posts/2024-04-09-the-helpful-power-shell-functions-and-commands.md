@@ -217,3 +217,9 @@ Start-Process javaw -ArgumentList "-Dlog4j.configurationFile=log4j2.properties",
 ```shell
 Expand-Archive -Path $ZipFilePath -DestinationPath $DirPath -Force:True
 ```
+
+## 8. Set timezone
+
+```shell
+Set-TimeZone -Id "Tokyo Standard Time"
+```
