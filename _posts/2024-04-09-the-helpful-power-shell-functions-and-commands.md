@@ -162,6 +162,9 @@ $NewPath = $CurrentPath + ";" + $Path
 
 # Set the New Path to User ENV
 [System.Environment]::SetEnvironmentVariable("PATH", $NewPath, [System.EnvironmentVariableTarget]::User)
+
+# Set Path in the current session
+$Env:PATH = "$dir\bin;$Env:PATH"
 ```
 
 How to check if the path exists:
@@ -172,6 +175,12 @@ $PersistedPaths = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVari
 if ($PersistedPaths -contains $Path) {
     Write-Host "Exist!"
 }
+```
+
+How to set env variable in the current session:
+
+```shell
+[System.Environment]::SetEnvironmentVariable('host', "127.0.0.1")
 ```
 
 ## 4. Download File
@@ -201,4 +210,10 @@ Start-Process javaw -ArgumentList "-Dlog4j.configurationFile=log4j2.properties",
         "-jar",
         "app.jar",
         "--spring.config.location=\config\" -WindowStyle Hidden
+```
+
+## 7. Expand Archive File
+
+```shell
+Expand-Archive -Path $ZipFilePath -DestinationPath $DirPath -Force:True
 ```
