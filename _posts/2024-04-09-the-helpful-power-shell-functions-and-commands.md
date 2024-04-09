@@ -128,3 +128,77 @@ Wait-For-Starting -Method TCP -Port 5050
 ```
 
 ***Note:** Refer to Test-TCP-Status and Test-UDP-Status Function from [#1](#1-check-status-and-stop-the-service)
+
+## 3. Check if the command exists
+
+```shell
+function Test-Command {
+    Param ($Command)
+    $oldPreference = $ErrorActionPreference
+    $ErrorActionPreference = 'stop'
+    try {
+        if (Get-Command $Command) {
+            return $True
+        }
+    }
+    catch {
+        return $False
+    }
+    finally {
+        $ErrorActionPreference = $oldPreference
+    }
+}
+
+# how to use
+Write-Host (Test-Command java)
+```
+
+## 4. Get/set ENV
+
+```shell
+# Get the current value of the PATH variable
+$CurrentPath = [System.Environment]::GetEnvironmentVariable("PATH", [System.EnvironmentVariableTarget]::User)
+$NewPath = $CurrentPath + ";" + $Path
+
+# Set the New Path to User ENV
+[System.Environment]::SetEnvironmentVariable("PATH", $NewPath, [System.EnvironmentVariableTarget]::User)
+```
+
+How to check if the path exists:
+
+```shell
+$Path = "C:\Program Files\Java\jdk-17.0.10\bin"
+$PersistedPaths = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVariableTarget]::User) -split ';'
+if ($PersistedPaths -contains $Path) {
+    Write-Host "Exist!"
+}
+```
+
+## 4. Download File
+
+```shell
+$Url = "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.msi"
+$OutFile = "C:\Users\Admin\Documents\OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.msi"
+Invoke-WebRequest -Uri $Url -OutFile $OutFile
+```
+
+## 5. Get the current path of the running script
+
+```shell
+$ScriptPath = $($MyInvocation.MyCommand.Path)
+Write-Host $ScriptPath
+
+# Get the parent path of that script
+$ParentPath = $([System.IO.Path]::GetFullPath("$($MyInvocation.MyCommand.Path)\.."))
+Write-Host $ParentPath
+```
+
+## 6. Start a process in background
+
+```shell
+# Start a Java application in background
+Start-Process javaw -ArgumentList "-Dlog4j.configurationFile=log4j2.properties",
+        "-jar",
+        "app.jar",
+        "--spring.config.location=\config\" -WindowStyle Hidden
+```
