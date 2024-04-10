@@ -3,7 +3,7 @@ title: The helpful PowerShell Functions and Commands
 author: lamngockhuong
 date: 2024-04-09 17:00:00 +0700
 categories: [PowerShell]
-tags: [windows, powershell]
+tags: [windows, powershell, java]
 image:
   path: /posts/2024/04/powershell.jpg
   width: 800
@@ -200,6 +200,10 @@ Write-Host $ScriptPath
 # Get the parent path of that script
 $ParentPath = $([System.IO.Path]::GetFullPath("$($MyInvocation.MyCommand.Path)\.."))
 Write-Host $ParentPath
+
+# Get the current directory path
+$CurrentPath = (Get-Item .).FullName
+Write-Host $CurrentPath
 ```
 
 ## 6. Start a process in background
@@ -210,6 +214,9 @@ Start-Process javaw -ArgumentList "-Dlog4j.configurationFile=log4j2.properties",
         "-jar",
         "app.jar",
         "--spring.config.location=\config\" -WindowStyle Hidden
+
+# Start a Python application in background
+Start-Process -FilePath "python" -ArgumentList "$PythonScript" -RedirectStandardError "$PathLogErr" -WindowStyle Hidden
 ```
 
 ## 7. Expand Archive File

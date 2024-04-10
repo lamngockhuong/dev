@@ -16,7 +16,7 @@ $ScriptPath = "$([System.IO.Path]::GetFullPath("$($MyInvocation.MyCommand.Path)\
 $TaskName = "CleanData"
 $TaskFolder = "\MyApp"
 
-$Trigger = New-ScheduledTaskTrigger -Daily -At 3pm
+$Trigger = New-ScheduledTaskTrigger -Daily -At 3am
 $Action = New-ScheduledTaskAction -Execute 'PowerShell.exe' -Argument "-WindowStyle Hidden -File $ScriptPath\database\clean_data.ps1"
 $Task = New-ScheduledTask -Action $Action -Trigger $Trigger -Settings (New-ScheduledTaskSettingsSet)
 Register-ScheduledTask -TaskName $TaskName -InputObject $Task -TaskPath $TaskFolder -User $(whoami) -Force
