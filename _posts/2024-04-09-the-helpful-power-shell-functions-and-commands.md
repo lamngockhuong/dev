@@ -217,6 +217,12 @@ Start-Process javaw -ArgumentList "-Dlog4j.configurationFile=log4j2.properties",
 
 # Start a Python application in background
 Start-Process -FilePath "python" -ArgumentList "$PythonScript" -RedirectStandardError "$PathLogErr" -WindowStyle Hidden
+
+# Run exe file
+Start-Process -FilePath "msiexec.exe" -ArgumentList "/i `"$InstallerFilePath`" /qn INSTALLDIR=`"$InstallDir`" /passive" -Wait -Verb RunAs
+
+# Run msi installer file
+Start-Process msiexec -Wait -ArgumentList "/i `"$InstallerFilePath`" /passive ADDLOCAL=`"all`""
 ```
 
 ## 7. Expand Archive File
@@ -229,4 +235,14 @@ Expand-Archive -Path $ZipFilePath -DestinationPath $DirPath -Force:True
 
 ```shell
 Set-TimeZone -Id "Tokyo Standard Time"
+```
+
+### 9. Remove item
+
+```shell
+# Remove all files from the folder
+Remove-Item -LiteralPath "parentFolder/childFolder" -Force -Recurse
+
+# Clean all files by extensions
+Get-ChildItem -Path $ServicePath -Include *.jar,*.war,*.pyc -Recurse | Remove-Item
 ```
