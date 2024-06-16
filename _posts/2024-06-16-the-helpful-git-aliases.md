@@ -1,4 +1,3 @@
-
 ---
 title: The helpful Git Aliases
 author: lamngockhuong
