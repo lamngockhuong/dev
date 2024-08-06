@@ -32,3 +32,10 @@ sudo usermod -aG sudo nguyen.van.a
 groups nguyen.van.a
 su - nguyen.van.a
 ```
+
+## Remove User from Sudo Group
+
+```bash
+# sudo deluser <username> <group>
+sudo deluser nguyen.van.a sudo
+```
