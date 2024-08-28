@@ -12,7 +12,9 @@ image:
 
 ## MySQL
 
-### Backup with mysqldump
+### Docker
+
+#### Backup with mysqldump
 
 👉 Backup the database from the local Docker container:
 
@@ -34,7 +36,7 @@ docker exec [mysql_container_id] sh -c 'exec mysqldump -h[remote_host] --port=[p
 docker exec 127c93385edc sh -c 'exec mysqldump -h172.1.100.110 --port=3306 -uroot -p123456 db_test' > /Users/lamngockhuong/develop/backup-$(date +%y%m%d%H%M%S).sql
 ```
 
-### Restore with mysql
+#### Restore with mysql
 
 👉 Restore the database to the local Docker container:
 
@@ -56,7 +58,33 @@ docker exec -i 127c93385edc sh -c 'exec mysql -h172.1.100.110 --port=3306 -uroot
 
 ## PostgreSQL
 
-### Backup with pg_dump
+### Local PSQL
+
+#### Backup with pg_dump
+
+Example:
+
+```bash
+# Output: sql file
+pg_dump -h 172.1.100.110 -p 5432 -U postgres_user -d database_name --no-owner --no-acl --inserts > db-backup-$(date +%y%m%d%H%M%S).sql
+
+# Output: tar file
+pg_dump -h 172.1.100.110 -p 5432 -U postgres_user -W -F tar database_name --no-owner --no-acl > db-backup-$(date +%y%m%d%H%M%S).tar
+```
+
+#### Restore with pg_restore
+
+Example:
+
+```bash
+pg_restore -h 172.1.100.110 -p 5432 -U postgres_user -d database_name_new -f db-backup-240813063846.sql
+
+pg_restore -h 172.1.100.110 -p 5432 -U postgres_user -d database_name_new db-backup-240813094030.tar
+```
+
+### Docker
+
+#### Backup with pg_dump
 
 👉 Backup the database from the local Docker container:
 
@@ -78,7 +106,7 @@ docker exec [postgresql_container_id] sh -c 'export PGPASSWORD='\''[password]'\'
 docker exec 127c93385edc sh -c 'export PGPASSWORD='\''AbC{4@8Z>)}mHutq'\'' && exec pg_dump -h 172.1.100.110 -p 5432 -U root -d db_test' > backup-$(date +%y%m%d%H%M%S).sql
 ```
 
-### Restore with psql
+#### Restore with psql
 
 👉 Restore the database to the local Docker container:
 
