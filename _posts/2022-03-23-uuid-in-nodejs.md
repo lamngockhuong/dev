@@ -9,6 +9,7 @@ image:
   width: 800
   height: 500
 ---
+
 ## UUID (Universally Unique IDentifier)
 
 `crypto` - Module was added from Node.js 14.17.0
