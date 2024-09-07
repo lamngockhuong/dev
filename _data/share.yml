@@ -18,6 +18,14 @@ platforms:
     icon: "fab fa-linkedin"
     link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
 
+  - type: Reddit
+    icon: "fa-brands fa-square-reddit"
+    link: "https://www.reddit.com/submit?url=URL&title=TITLE"
+  
+  - type: Threads
+    icon: "fa-brands fa-square-threads"
+    link: "https://www.threads.net/intent/post?text=TITLE%20URL"
+
   # Uncomment below if you need to.
   #
   # - type: Weibo
@@ -36,3 +44,8 @@ platforms:
   #       link: "https://fosstodon.org/"
   #     - label: photog.social
   #       link: "https://photog.social/"
+  #
+  # - type: Bluesky
+  #   icon: "fa-brands fa-bluesky"
+  #   link: "https://bsky.app/intent/compose?text=TITLE%20URL"
+  #
