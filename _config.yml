@@ -16,10 +16,10 @@ timezone: Asia/Ho_Chi_Minh
 
 title: Khuong Dev
 
-tagline: This is merely a dev's notebook, nothing more, nothing less
+tagline: This is just a developer's notebook — neither more nor less.
 
 description: >-                        # used by seo meta and the atom feed
-  Khuong Dev, This is merely a dev's notebook, nothing more, nothing less
+  Khuong Dev - This is just a developer's notebook — neither more nor less.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
