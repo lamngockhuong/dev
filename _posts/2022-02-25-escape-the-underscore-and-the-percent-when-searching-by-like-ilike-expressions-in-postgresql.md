@@ -10,7 +10,7 @@ image:
   height: 500
 ---
 
-To escape the underscore and the percent to be used in a pattern in like expressions use the escape character (`\`):
+To escape the underscore and the percent to be used in a pattern in like expressions, use the escape character (`\`):
 
 ```sql
 SELECT * FROM users WHERE name LIKE '\_';
