@@ -1,4 +1,4 @@
-# Khuong Dev notebook
+# Khuong Dev Notebook
 
 Powered by [Jekyll][jekyll] with [Chirpy][chirpy-theme] theme.
 
