@@ -10,6 +10,8 @@ image:
   height: 500
 ---
 
+## Example
+
 ```javascript
 var enums = {};
 enums.keyboard = {
