@@ -12,9 +12,6 @@ I created this site firstly for my personal note taking and now, I wanna share i
 
 [[Buy me a coffee](https://paypal.me/lamngockhuong)][[Momo](https://me.momo.vn/ngockhuong)]
 
-> My projects
-{: .prompt-info }
-
 ## 📁 Portfolio
 
 ### Project 1: **[NestJS Boilerplate](https://github.com/vndevteam/nestjs-boilerplate)**
