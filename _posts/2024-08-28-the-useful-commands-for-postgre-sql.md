@@ -27,6 +27,12 @@ psql -h 127.1.2.3 -U postgres_user database_name
 CREATE DATABASE "database_name" ENCODING 'UTF8' LC_COLLATE = 'ja_JP.UTF-8' LC_CTYPE = 'ja_JP.UTF-8' TEMPLATE template0;
 ```
 
+### Clone the database
+
+```sql
+CREATE DATABASE database_name_backup WITH TEMPLATE database_name OWNER database_user;
+```
+
 ### Rename the database
 
 ```sql
@@ -47,7 +53,7 @@ DROP DATABASE database_name;
 SElECT * from pg_catalog.pg_user;
 ```
 
-### Get the database's encoding and owner information.
+### Get the database's encoding and owner information
 
 ```sql
 select d.datname as "Name", d.datcollate as "Collate", d.datctype as "CType", pg_catalog.pg_get_userbyid(d.datdba) as "Owner" from pg_catalog.pg_database d;
@@ -62,8 +68,8 @@ ALTER DATABASE database_name OWNER TO cloudsqlsuperuser;
 ### Retrieve and summarize the table privileges granted to users
 
 ```sql
-SELECT grantee AS user, CONCAT(table_schema, '.', table_name) AS table, 
-    CASE 
+SELECT grantee AS user, CONCAT(table_schema, '.', table_name) AS table,
+    CASE
         WHEN COUNT(privilege_type) = 7 THEN 'ALL'
         ELSE ARRAY_TO_STRING(ARRAY_AGG(privilege_type), ', ')
     END AS grants
