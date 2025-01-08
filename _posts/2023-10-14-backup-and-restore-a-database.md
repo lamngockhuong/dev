@@ -111,10 +111,10 @@ docker exec 127c93385edc sh -c 'export PGPASSWORD='\''AbC{4@8Z>)}mHutq'\'' && ex
 👉 Restore the database to the local Docker container:
 
 ```bash
-cat [file_name].sql | docker exec -i --user [user] [postgresql_container_id] psql -U [user]
+cat [file_name].sql | docker exec -i [postgresql_container_id] psql -U [user] -d [database_name]
 
 #example
-cat dump.sql | docker exec -i --user postgres 127c93385edc psql -U postgres
+cat dump.sql | docker exec -i 127c93385edc psql -U postgres -d db_test
 ```
 
 👉 Restore the database to the remote PostgreSQL database server:
