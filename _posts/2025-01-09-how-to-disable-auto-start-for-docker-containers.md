@@ -20,9 +20,14 @@ docker ps -a
 
 ## 2. Inspect the Restart Policy
 Check the current restart policy for your container:
+
+{% raw %}
+
 ```bash
 docker inspect -f '{{.HostConfig.RestartPolicy.Name}}' <container_name_or_id>
 ```
+
+{% endraw %}
 
 ## 3. Update the Restart Policy
 Disable auto-start by updating the restart policy to `no`:
@@ -32,9 +37,14 @@ docker update --restart=no <container_name_or_id>
 
 ## 4. Confirm Changes
 Verify the updated restart policy:
+
+{% raw %}
+
 ```bash
 docker inspect -f '{{.HostConfig.RestartPolicy.Name}}' <container_name_or_id>
 ```
+
+{% endraw %}
 
 ## 5. Reboot and Test
 Restart your computer and confirm that the container no longer starts automatically:
