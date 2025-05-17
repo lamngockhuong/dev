@@ -18,7 +18,7 @@ title: Khuong Dev
 
 tagline: This is just a developer's notebook — neither more nor less.
 
-description: >-                        # used by seo meta and the atom feed
+description: >- # used by seo meta and the atom feed
   Khuong Dev - This is just a developer's notebook — neither more nor less.
 
 # Fill in the protocol & hostname for your site.
@@ -41,7 +41,6 @@ social:
     - https://twitter.com/lamngockhuong
     - https://www.facebook.com/lamngockhuong
     - https://www.linkedin.com/in/lamngockhuong
-
 
 # Site Verification Settings
 webmaster_verifications:
@@ -85,17 +84,17 @@ pageviews:
 #     light - Use the light color scheme
 #     dark - Use the dark color scheme
 #
-theme_mode:   # [light | dark]
+theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: 'https://raw.githubusercontent.com/lamngockhuong/dev-images/main'
+cdn: "https://raw.githubusercontent.com/lamngockhuong/dev-images/main"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: "/commons/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -209,8 +208,9 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - "*.config.js"
-  - package*.json
+  - purgecss.js
+  - rollup.config.js
+  - "package*.json"
 
 jekyll-archives:
   enabled: [categories, tags]

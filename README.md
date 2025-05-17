@@ -12,9 +12,30 @@ git submodule update --init --remote --recursive
 ```
 
 **Pull new source:**
-```
+
+```bash
 git pull --recurse-submodules
 ```
+
+## Running Locally
+
+Follow these steps to install dependencies and serve the site on your local machine:
+
+1. **Install dependencies:**
+
+  ```bash
+  bundle install
+  ```
+
+2. **Serve the site locally:**
+
+  ```bash
+  bundle exec jekyll serve
+  ```
+
+3. Open your browser and visit [http://localhost:4000](http://localhost:4000) to view the site.
+
+For more details, see the [Jekyll documentation][jekyll].
 
 ## Sponsoring
 
@@ -28,5 +49,4 @@ This work is published under [MIT][mit] License.
 
 [jekyll]: https://jekyllrb.com/
 [chirpy-theme]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[chirpy-theme-starter]: https://github.com/cotes2020/chirpy-starter/generate
 [mit]: https://github.com/lamngockhuong/dev/blob/main/LICENSE
