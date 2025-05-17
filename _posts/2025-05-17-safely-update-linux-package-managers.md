@@ -12,7 +12,7 @@ image:
 
 A portable Bash script to update all major package managers on any Linux distribution while ensuring safety. It avoids disruptive upgrades by using commands like `apt upgrade` instead of `dist-upgrade`, performs post-update cleanup for certain package managers (e.g., APT, Homebrew, and DNF), and only updates package managers detected on the system to prevent unnecessary operations. It supports APT, DNF, YUM, Pacman, Zypper, APK, Emerge, Nix, Snap, Flatpak, and Homebrew.
 
-### Features
+## Features
 
 - ✅ **Cross-distro support**: Works with Debian, Ubuntu, Fedora, RHEL, CentOS, Arch, Manjaro, openSUSE, Alpine, Gentoo, and NixOS.
 - 📦 **Supports 11 package managers**: `apt`, `dnf`, `yum`, `pacman`, `zypper`, `apk`, `emerge`, `nix-env`, `snap`, `flatpak`, and `brew`.
@@ -21,7 +21,7 @@ A portable Bash script to update all major package managers on any Linux distrib
 - 🔒 **Safe operations**: Uses `apt upgrade` instead of `dist-upgrade` to avoid disruptive upgrades.
 - ⚙️ **Modular & extensible**: Easy to add more logic for distro-specific updates.
 
-### Usage
+## Usage
 
 Download [the script update-everything.sh here](https://gist.github.com/lamngockhuong/d6b4b036265a6c1a8daa9ff57d0e28ba) and run:
 
