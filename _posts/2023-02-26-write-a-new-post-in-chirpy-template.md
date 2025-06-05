@@ -252,7 +252,7 @@ image:
 ---
 ```
 
-> You can observe LQIP in the preview image of post \"[Text and Typography](../text-and-typography/)\".
+> You can observe LQIP in the preview image of post \"[Text and Typography](../jekyll-chirpy-text-and-typography/)\".
 
 For normal images:
 
