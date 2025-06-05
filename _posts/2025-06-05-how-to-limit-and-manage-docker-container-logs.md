@@ -1,5 +1,6 @@
 ---
 title: How to Limit and Manage Docker Container Logs
+description: How to Limit and Manage Docker Container Logs by using log-driver, log-opts configuration
 author: lamngockhuong
 date: 2025-06-05 11:15:00 +0700
 categories: [Linux]

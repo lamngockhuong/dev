@@ -1,5 +1,6 @@
 ---
 title: AWS CLI for EC2
+description: Some AWS CLIs for EC2
 author: lamngockhuong
 date: 2022-09-30 12:00:00 +0700
 categories: [AWS]
