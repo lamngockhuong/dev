@@ -2,7 +2,7 @@
 title: Promise allSettled vs Promise all
 author: lamngockhuong
 date: 2024-04-09 13:15:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript, promise]
 image:
   path: /posts/2023/10/js.png
@@ -25,8 +25,8 @@ Promise.all([
 
 `Promise all` will reject as soon as there is a Promise in the Array returned to `reject`.
 
-
 Result:
+
 ```
 You win at life ✗
 ```
@@ -47,6 +47,7 @@ Promise.allSettled([
 `Promise allSettled` will run all Promises in the array, regardless of whether they return `rejected` or `fulfilled`
 
 Result:
+
 ```
 You win at life,
 [

@@ -2,7 +2,7 @@
 title: Safely Update Linux Package Managers
 author: lamngockhuong
 date: 2025-05-17 22:15:00 +0700
-categories: [Linux]
+categories: [System & OS, Linux]
 tags: [linux, unix, commands, ubuntu, debian, alpine, update]
 image:
   path: /posts/2023/10/linux.png

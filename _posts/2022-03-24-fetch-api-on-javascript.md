@@ -2,7 +2,7 @@
 title: Fetch API on Javascript
 author: lamngockhuong
 date: 2022-03-24 18:15:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript, fetchapi]
 image:
   path: /posts/2023/10/js.png

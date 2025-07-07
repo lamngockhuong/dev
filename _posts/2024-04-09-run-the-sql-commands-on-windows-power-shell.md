@@ -3,7 +3,7 @@ title: Run the SQL commands on Windows PowerShell
 description: How to run the SQL commands on Windows PowerShell
 author: lamngockhuong
 date: 2024-04-10 18:30:00 +0700
-categories: [PowerShell]
+categories: [Programming Languages, PowerShell]
 tags: [windows, sql, powershell]
 image:
   path: /posts/2024/04/powershell.jpg

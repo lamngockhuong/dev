@@ -2,7 +2,7 @@
 title: Useful Linux and Unix commands
 author: lamngockhuong
 date: 2022-04-21 10:25:00 +0700
-categories: [Linux]
+categories: [System & OS, Linux]
 tags: [linux, unix, commands, ubuntu, debian, alpine]
 image:
   path: /posts/2023/10/linux.png

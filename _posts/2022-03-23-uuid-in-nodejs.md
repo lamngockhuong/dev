@@ -2,7 +2,7 @@
 title: UUID in NodeJS
 author: lamngockhuong
 date: 2022-03-23 21:25:00 +0700
-categories: [NodeJS]
+categories: [Programming Languages, NodeJS]
 tags: [javascript, uuid, nodejs]
 image:
   path: /posts/2023/10/js.png

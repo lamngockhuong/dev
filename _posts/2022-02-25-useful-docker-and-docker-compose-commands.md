@@ -2,7 +2,7 @@
 title: Useful Docker & docker-compose commands
 author: lamngockhuong
 date: 2022-02-25 15:00 +0700
-categories: [Docker]
+categories: [Tools & Dev Utilities, Docker]
 tags: [docker]
 image:
   path: /posts/2023/10/docker.png

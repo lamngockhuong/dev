@@ -2,7 +2,7 @@
 title: What's the meaning of /gi in a regex?
 author: lamngockhuong
 date: 2022-02-24 17:10:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript, regex]
 image:
   path: /posts/2023/10/js.png

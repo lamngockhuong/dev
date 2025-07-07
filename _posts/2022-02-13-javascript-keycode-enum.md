@@ -2,7 +2,7 @@
 title: Javascript Keycode Enums
 author: lamngockhuong
 date: 2022-02-13 17:30:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript]
 image:
   path: /posts/2023/10/js.png

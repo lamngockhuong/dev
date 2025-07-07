@@ -2,7 +2,7 @@
 title: Handling multiple Github accounts on MacOS
 author: lamngockhuong
 date: 2023-09-05 15:00:00 +0700
-categories: [Git]
+categories: [Tools & Dev Utilities, Git]
 tags: [git, github]
 image:
   path: /posts/2023/10/git.png

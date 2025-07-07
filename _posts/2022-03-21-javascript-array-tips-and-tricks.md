@@ -2,7 +2,7 @@
 title: Javascript Array tips and tricks
 author: lamngockhuong
 date: 2022-03-21 11:40:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript, array, tips, tricks]
 image:
   path: /posts/2023/10/js.png

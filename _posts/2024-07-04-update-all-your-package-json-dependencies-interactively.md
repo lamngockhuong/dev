@@ -2,7 +2,7 @@
 title: Update all your package.json dependencies interactively
 author: lamngockhuong
 date: 2024-07-04 11:30:00 +0700
-categories: [NodeJS]
+categories: [Programming Languages, NodeJS]
 tags: [javascript, yarn, pnpm, npm, package, dependencies]
 image:
   path: /posts/2023/10/js.png

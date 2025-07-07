@@ -2,7 +2,7 @@
 title: Converting text to speech with Javascript
 author: lamngockhuong
 date: 2022-03-22 08:10:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript]
 image:
   path: /posts/2023/10/js.png

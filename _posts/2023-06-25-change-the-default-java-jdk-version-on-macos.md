@@ -2,7 +2,7 @@
 title: Change the default Java (JDK) version on macOS
 author: lamngockhuong
 date: 2023-06-25 13:05:00 +0700
-categories: [Java]
+categories: [Programming Languages, Java]
 tags: [java, jdk, macos]
 image:
   path: /posts/2023/10/java.png

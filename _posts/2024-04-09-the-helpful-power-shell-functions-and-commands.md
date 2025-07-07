@@ -2,7 +2,7 @@
 title: The helpful PowerShell Functions and Commands
 author: lamngockhuong
 date: 2024-04-09 17:00:00 +0700
-categories: [PowerShell]
+categories: [Programming Languages, PowerShell]
 tags: [windows, powershell, java]
 image:
   path: /posts/2024/04/powershell.jpg

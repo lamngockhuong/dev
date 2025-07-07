@@ -3,7 +3,7 @@ title: Escape the underscore and the percent when searching by like, ilike expre
 description: To escape the underscore and the percent to be used in a pattern in like expressions, use the escape character
 author: lamngockhuong
 date: 2022-02-25 10:10:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript, sql, postgresql]
 image:
   path: /posts/2023/10/js.png

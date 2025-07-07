@@ -2,7 +2,7 @@
 title: The helpful Git Aliases
 author: lamngockhuong
 date: 2024-06-16 19:00:00 +0700
-categories: [Git]
+categories: [Tools & Dev Utilities, Git]
 tags: [git, tips]
 image:
   path: /posts/2023/10/git.png

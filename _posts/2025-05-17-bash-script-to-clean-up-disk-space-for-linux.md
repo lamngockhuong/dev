@@ -2,7 +2,7 @@
 title: Bash script to clean up disk space for Linux
 author: lamngockhuong
 date: 2025-05-17 22:35:00 +0700
-categories: [Linux]
+categories: [System & OS, Linux]
 tags: [linux, unix, commands, ubuntu, debian, alpine, clean, disk]
 image:
   path: /posts/2023/10/linux.png
@@ -51,4 +51,4 @@ bash <(curl -L https://go.khuong.dev/check-disk-usage)
 
 ## References
 
-- [lamngockhuong/check-disk-usage.sh](https://gist.github.com/lamngockhuong/7c5ba9565b660c723aa36b483a408443)
+* [lamngockhuong/check-disk-usage.sh](https://gist.github.com/lamngockhuong/7c5ba9565b660c723aa36b483a408443)
