@@ -3,7 +3,7 @@ title: Register Scheduled Task on Windows Task Scheduler
 description: How to register Scheduled Task on Windows Task Scheduler
 author: lamngockhuong
 date: 2024-04-09 17:15:00 +0700
-categories: [PowerShell]
+categories: [Programming Languages, PowerShell]
 tags: [windows, powershell, scheduled]
 image:
   path: /posts/2024/04/powershell.jpg

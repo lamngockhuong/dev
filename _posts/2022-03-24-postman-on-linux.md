@@ -2,7 +2,7 @@
 title: Postman on Linux
 author: lamngockhuong
 date: 2022-03-24 15:00:00 +0700
-categories: [Linux]
+categories: [Tools & Dev Utilities, Postman]
 tags: [linux, ubuntu, postman]
 image:
   path: /posts/2023/10/linux.png

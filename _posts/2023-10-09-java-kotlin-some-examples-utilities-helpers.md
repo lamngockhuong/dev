@@ -2,7 +2,7 @@
 title: Java/Kotlin - Some examples - utilities - helpers
 author: lamngockhuong
 date: 2023-10-09 19:45:00 +0700
-categories: [Jvm]
+categories: [Programming Languages, Jvm]
 tags: [jvm, java, kotlin]
 image:
   path: /posts/2023/10/java.png

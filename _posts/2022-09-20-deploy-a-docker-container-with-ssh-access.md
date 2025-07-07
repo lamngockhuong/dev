@@ -2,7 +2,7 @@
 title: Deploy a Docker container with SSH access
 author: lamngockhuong
 date: 2022-09-20 18:20:00 +0700
-categories: [Linux]
+categories: [System & OS, Linux]
 tags: [linux, docker, ubuntu, ssh]
 image:
   path: /posts/2023/10/docker.png

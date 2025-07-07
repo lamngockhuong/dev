@@ -2,7 +2,7 @@
 title: NodeJS memory usage check
 author: lamngockhuong
 date: 2022-08-31 13:25:00 +0700
-categories: [NodeJS]
+categories: [Programming Languages, NodeJS]
 tags: [nodejs, memory]
 image:
   path: /posts/2023/10/nodejs.png

@@ -2,7 +2,7 @@
 title: Create a multi-project with Gradle/Maven
 author: lamngockhuong
 date: 2023-05-06 21:00:00 +0700
-categories: [Gradle]
+categories: [Tools & Dev Utilities, Gradle]
 tags: [gradle, maven, java, kotlin]
 image:
   path: /posts/2023/10/gradle.png
@@ -20,13 +20,14 @@ image:
 │   └── build.gradle
 └── settings.gradle
 ```
-{: file="Project layout" }
 
+{: file="Project layout" }
 
 ```gradle
 rootProject.name = 'basic-multiproject'
 include 'app'
 ```
+
 {: file="settings.gradle" }
 
 ```gradle
@@ -38,6 +39,7 @@ application {
     mainClass = 'com.example.Hello'
 }
 ```
+
 {: file="app/build.gradle" }
 
 ## References

@@ -3,8 +3,8 @@ layout: post
 title: Jekyll Chirpy Text and Typography
 author: lamngockhuong
 date: 2022-02-17 22:08 +0700
-categories: [Blogging, Jekyll]
-tags: [typography]
+categories: [Frameworks & Libraries, Jekyll]
+tags: [typography, blogging, markdown, jekyll]
 math: true
 mermaid: true
 image:
@@ -133,6 +133,7 @@ fi;
   "colors/light-typography",
   "colors/dark-typography";
 ```
+
 {: file='_sass/jekyll-theme-chirpy.scss'}
 
 ## Mathematics

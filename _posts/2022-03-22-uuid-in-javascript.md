@@ -2,7 +2,7 @@
 title: UUID in Javascript
 author: lamngockhuong
 date: 2022-03-22 08:30:00 +0700
-categories: [Javascript]
+categories: [Programming Languages, Javascript]
 tags: [javascript, uuid]
 image:
   path: /posts/2023/10/js.png

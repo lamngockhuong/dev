@@ -2,7 +2,7 @@
 title: Some Java/Kotlin project examples
 author: lamngockhuong
 date: 2024-04-11 16:55:00 +0700
-categories: [Java]
+categories: [Programming Languages, Java]
 tags: [java, kotlin, example, spring]
 image:
   path: /posts/2023/10/java.png

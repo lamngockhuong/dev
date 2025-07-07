@@ -2,7 +2,7 @@
 title: Some helpful websites for Java Developer
 author: lamngockhuong
 date: 2022-10-14 14:20:00 +0700
-categories: [Java]
+categories: [Programming Languages, Java]
 tags: [java, jdk, website]
 image:
   path: /posts/2023/10/java.png
