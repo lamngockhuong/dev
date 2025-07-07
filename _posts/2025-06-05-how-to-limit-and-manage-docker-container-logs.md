@@ -59,9 +59,13 @@ docker run \
 
 To find a container’s log file:
 
+{% raw %}
+
 ```bash
 docker inspect <container-id> --format='{{.LogPath}}'
 ```
+
+{% endraw %}
 
 Clear it manually if it gets too large:
 
