@@ -1,5 +1,5 @@
 ---
-title: Timing Attack: A Hidden Risk When Comparing Secrets
+title: Timing Attack - A Hidden Risk When Comparing Secrets
 description: Learn why comparing API keys or signatures using === is insecure, and how a simple timing attack can expose your secrets. Includes a clear example in TypeScript and how to fix it using constant-time comparison.
 author: lamngockhuong
 date: 2025-07-07 17:45:00 +0700
