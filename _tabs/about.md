@@ -1,5 +1,6 @@
 ---
-# the default layout is 'page'
+title: About
+description: Personal developer blog by Lam Ngoc Khuong — NestJS, DevOps, and more.
 icon: fas fa-info-circle
 order: 4
 ---
