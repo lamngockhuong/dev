@@ -5,6 +5,11 @@ author: lamngockhuong
 date: 2026-02-23 08:00:00 +0700
 categories: [macOS, Productivity]
 tags: [claude code, macos, caffeinate, hooks, automation, ai tools]
+image:
+  path: /posts/2026/02/claude-code.png
+  alt: "Preventing Mac sleep during Claude Code sessions"
+  width: 800
+  height: 500
 ---
 
 When Claude Code runs long tasks unattended, your Mac may go to sleep and pause the agent. Here's a simple fix using Claude Code's hook system and macOS's built-in `caffeinate` command.
