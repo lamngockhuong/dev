@@ -1,17 +1,18 @@
 # Khuong Dev Notebook
 
-Powered by [Jekyll][jekyll] with [Chirpy][chirpy-theme] theme.
+Personal tech blog at [dev.ngockhuong.com](https://dev.ngockhuong.com) — developer notes and tutorials.
+
+Powered by [Jekyll][jekyll] with [Chirpy][chirpy-theme] theme (v7.4+). Deployed to GitHub Pages via Cloudflare.
 
 ## Setup
-
-**The first time:**
 
 ```bash
 git clone https://github.com/lamngockhuong/dev.git
 git submodule update --init --remote --recursive
+bundle install
 ```
 
-**Pull new source:**
+**Pull latest:**
 
 ```bash
 git pull --recurse-submodules
@@ -19,21 +20,25 @@ git pull --recurse-submodules
 
 ## Running Locally
 
-Follow these steps to install dependencies and serve the site on your local machine:
+```bash
+# Dev server with live reload
+bundle exec jekyll s -l
 
-1. **Install dependencies:**
+# Production mode
+bash tools/run.sh -p
+```
 
-  ```bash
-  bundle install
-  ```
+Open [http://localhost:4000](http://localhost:4000) to view the site.
 
-2. **Serve the site locally:**
+## Build & Test
 
-  ```bash
-  bundle exec jekyll serve
-  ```
+```bash
+# Build for production
+JEKYLL_ENV=production bundle exec jekyll b -d _site
 
-3. Open your browser and visit [http://localhost:4000](http://localhost:4000) to view the site.
+# Build + test (html-proofer)
+bash tools/test.sh
+```
 
 For more details, see the [Jekyll documentation][jekyll].
 
