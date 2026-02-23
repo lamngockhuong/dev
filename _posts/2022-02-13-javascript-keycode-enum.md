@@ -1,5 +1,6 @@
 ---
 title: Javascript Keycode Enums
+description: "Complete JavaScript keyboard keycode enum reference with named constants for all common keys like Enter, Escape, Arrow keys, and more."
 author: lamngockhuong
 date: 2022-02-13 17:30:00 +0700
 categories: [Programming Languages, Javascript]

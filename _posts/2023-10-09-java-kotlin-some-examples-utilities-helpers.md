@@ -1,5 +1,6 @@
 ---
 title: Java/Kotlin - Some examples - utilities - helpers
+description: "Collection of Java and Kotlin utility examples including barcode generation, date time helpers, and more."
 author: lamngockhuong
 date: 2023-10-09 19:45:00 +0700
 categories: [Programming Languages, Jvm]

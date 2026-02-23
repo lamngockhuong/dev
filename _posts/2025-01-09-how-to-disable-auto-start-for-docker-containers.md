@@ -1,5 +1,6 @@
 ---
 title: How to Disable Auto-Start for Docker Containers
+description: "How to stop Docker containers from starting automatically by changing the restart policy to 'no'."
 author: lamngockhuong
 date: 2025-01-09 11:00 +0700
 categories: [Tools & Dev Utilities, Docker]

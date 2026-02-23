@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll Chirpy Text and Typography
+description: "Showcase of Markdown syntax rendering in Jekyll Chirpy theme including headings, lists, code blocks, images, and typography examples."
 author: lamngockhuong
 date: 2022-02-17 22:08 +0700
 categories: [Frameworks & Libraries, Jekyll]

@@ -1,5 +1,6 @@
 ---
 title: Create new Linux User
+description: "How to create a new Linux user, configure SSH key access, and add them to the sudoers group."
 author: lamngockhuong
 date: 2023-10-14 14:30:00 +0700
 categories: [System & OS, Linux]

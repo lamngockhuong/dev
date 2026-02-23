@@ -1,5 +1,6 @@
 ---
 title: Change the default Java (JDK) version on macOS
+description: "How to switch between multiple Java JDK versions on macOS using java_home and environment variables."
 author: lamngockhuong
 date: 2023-06-25 13:05:00 +0700
 categories: [Programming Languages, Java]

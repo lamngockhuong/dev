@@ -1,5 +1,6 @@
 ---
 title: Create a multi-project with Gradle/Maven
+description: "How to set up a multi-project build with Gradle (Groovy/Kotlin DSL) and Maven including project layout examples."
 author: lamngockhuong
 date: 2023-05-06 21:00:00 +0700
 categories: [Tools & Dev Utilities, Gradle]

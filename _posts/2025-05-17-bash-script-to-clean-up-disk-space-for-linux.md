@@ -1,5 +1,6 @@
 ---
 title: Bash script to clean up disk space for Linux
+description: "Interactive Bash script to inspect and clean up disk space used by dev tools, APT cache, Docker, and system logs on Linux."
 author: lamngockhuong
 date: 2025-05-17 22:35:00 +0700
 categories: [System & OS, Linux]

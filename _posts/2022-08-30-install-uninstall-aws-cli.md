@@ -1,5 +1,6 @@
 ---
 title: Installing, uninstalling or updating the latest version of the AWS CLI
+description: "How to install, update, or uninstall the AWS CLI v2 on Linux (x86 and ARM architectures)."
 author: lamngockhuong
 date: 2022-08-30 17:45:00 +0700
 categories: [Cloud & Hosting, AWS]

@@ -1,5 +1,6 @@
 ---
 title: The useful commands for Redis
+description: "Useful Redis commands including MONITOR for debugging and other essential redis-cli operations."
 author: lamngockhuong
 date: 2024-09-07 13:15:00 +0700
 categories: [Database, Redis]

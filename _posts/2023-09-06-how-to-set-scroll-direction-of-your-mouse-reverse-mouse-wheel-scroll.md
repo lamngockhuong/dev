@@ -1,5 +1,6 @@
 ---
 title: How to set scroll direction of your mouse (reverse mouse wheel scroll)
+description: "How to reverse mouse wheel scroll direction on Windows 10 using a PowerShell script."
 author: lamngockhuong
 date: 2023-09-06 09:45:00 +0700
 categories: [System & OS, Windows]

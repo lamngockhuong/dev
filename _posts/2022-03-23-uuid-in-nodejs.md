@@ -1,5 +1,6 @@
 ---
 title: UUID in NodeJS
+description: "Generate UUIDs in Node.js using the built-in crypto module, uuid package, or nanoid for shorter unique IDs."
 author: lamngockhuong
 date: 2022-03-23 21:25:00 +0700
 categories: [Programming Languages, NodeJS]

@@ -1,5 +1,6 @@
 ---
 title: Some helpful websites for Java Developer
+description: "Curated list of helpful websites for Java developers including WhichJDK, Baeldung, and other essential resources."
 author: lamngockhuong
 date: 2022-10-14 14:20:00 +0700
 categories: [Programming Languages, Java]

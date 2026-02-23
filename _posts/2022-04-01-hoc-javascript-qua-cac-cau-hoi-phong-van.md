@@ -1,5 +1,6 @@
 ---
 title: Học Javascript qua các câu hỏi phỏng vấn
+description: "Tổng hợp các câu hỏi phỏng vấn JavaScript từ cơ bản đến nâng cao kèm câu trả lời chi tiết."
 author: lamngockhuong
 date: 2022-04-01 22:15:00 +0700
 categories: [Programming Languages, Javascript]

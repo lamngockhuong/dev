@@ -1,5 +1,6 @@
 ---
 title: Handling multiple Github accounts on MacOS
+description: "Guide to managing multiple GitHub accounts on macOS using separate SSH keys and SSH config file."
 author: lamngockhuong
 date: 2023-09-05 15:00:00 +0700
 categories: [Tools & Dev Utilities, Git]

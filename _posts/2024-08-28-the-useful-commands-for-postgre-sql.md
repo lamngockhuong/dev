@@ -1,5 +1,6 @@
 ---
 title: The useful commands for PostgreSQL
+description: "Essential PostgreSQL commands and psql tips for database management, queries, users, and administration."
 author: lamngockhuong
 date: 2024-08-28 09:45:00 +0700
 categories: [Database, PostgreSQL]

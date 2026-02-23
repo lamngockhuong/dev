@@ -1,5 +1,6 @@
 ---
 title: What's the difference between implementation, api and compile in Gradle?
+description: "Comparison of Gradle dependency configurations: implementation, api, compileOnly, runtimeOnly, and test variants explained."
 author: lamngockhuong
 date: 2023-05-07 15:45:00 +0700
 categories: [Tools & Dev Utilities, Gradle]

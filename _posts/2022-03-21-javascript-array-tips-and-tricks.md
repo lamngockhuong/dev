@@ -1,5 +1,6 @@
 ---
 title: Javascript Array tips and tricks
+description: "Handy JavaScript array tips and tricks including removing duplicates, replacing values, mapping, filtering, and more."
 author: lamngockhuong
 date: 2022-03-21 11:40:00 +0700
 categories: [Programming Languages, Javascript]

@@ -1,5 +1,6 @@
 ---
 title: What's the meaning of /gi in a regex?
+description: "Explanation of the /gi modifier in JavaScript regex — g for global matching and i for case-insensitive matching with examples."
 author: lamngockhuong
 date: 2022-02-24 17:10:00 +0700
 categories: [Programming Languages, Javascript]

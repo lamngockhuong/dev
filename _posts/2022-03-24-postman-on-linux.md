@@ -1,5 +1,6 @@
 ---
 title: Postman on Linux
+description: "Quick guide to install and uninstall Postman on Linux using Snap package manager."
 author: lamngockhuong
 date: 2022-03-24 15:00:00 +0700
 categories: [Tools & Dev Utilities, Postman]

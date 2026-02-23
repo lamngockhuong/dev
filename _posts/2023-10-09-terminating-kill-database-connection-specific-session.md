@@ -1,5 +1,6 @@
 ---
 title: Terminating (kill) database connection, specific session
+description: "How to find and terminate specific database sessions in PostgreSQL and MySQL using SQL commands."
 author: lamngockhuong
 date: 2023-10-09 18:40:00 +0700
 categories: [Database]

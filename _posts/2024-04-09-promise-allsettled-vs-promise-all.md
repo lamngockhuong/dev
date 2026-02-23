@@ -1,5 +1,6 @@
 ---
 title: Promise allSettled vs Promise all
+description: "Comparison of JavaScript Promise.all and Promise.allSettled with examples showing how each handles rejected promises."
 author: lamngockhuong
 date: 2024-04-09 13:15:00 +0700
 categories: [Programming Languages, Javascript]

@@ -1,5 +1,6 @@
 ---
 title: Some Java/Kotlin project examples
+description: "Collection of Java and Kotlin project examples including Spring Boot with Redis cache, barcode generation, and utilities."
 author: lamngockhuong
 date: 2024-04-11 16:55:00 +0700
 categories: [Programming Languages, Java]

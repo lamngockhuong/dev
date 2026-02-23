@@ -1,5 +1,6 @@
 ---
 title: Useful Linux and Unix commands
+description: "Cheatsheet of useful Linux and Unix commands for Debian, Ubuntu, and Alpine including file operations, networking, and system management."
 author: lamngockhuong
 date: 2022-04-21 10:25:00 +0700
 categories: [System & OS, Linux]

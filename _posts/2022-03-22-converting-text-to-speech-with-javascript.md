@@ -1,5 +1,6 @@
 ---
 title: Converting text to speech with Javascript
+description: "How to convert text to speech in the browser using the JavaScript Web Speech API and SpeechSynthesisUtterance."
 author: lamngockhuong
 date: 2022-03-22 08:10:00 +0700
 categories: [Programming Languages, Javascript]

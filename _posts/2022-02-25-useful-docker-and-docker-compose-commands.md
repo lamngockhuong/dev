@@ -1,5 +1,6 @@
 ---
 title: Useful Docker & docker-compose commands
+description: "Cheatsheet of commonly used Docker and docker-compose commands for managing images, containers, volumes, and networks."
 author: lamngockhuong
 date: 2022-02-25 15:00 +0700
 categories: [Tools & Dev Utilities, Docker]

@@ -1,5 +1,6 @@
 ---
 title: The helpful PowerShell Functions and Commands
+description: "Useful PowerShell functions and commands for managing services, processes, and Java environment on Windows."
 author: lamngockhuong
 date: 2024-04-09 17:00:00 +0700
 categories: [Programming Languages, PowerShell]

@@ -1,5 +1,6 @@
 ---
 title: Suppress Startup log in NestJS
+description: "How to suppress or customize NestJS startup logs using a custom bootstrap logger with Winston."
 author: lamngockhuong
 date: 2022-04-12 09:00:00 +0700
 categories: [Frameworks & Libraries, NestJS]

@@ -1,5 +1,6 @@
 ---
 title: Backup & Restore a database
+description: "Commands to backup and restore MySQL and PostgreSQL databases using Docker, mysqldump, and pg_dump."
 author: lamngockhuong
 date: 2023-10-14 16:15:00 +0700
 categories: [Database]

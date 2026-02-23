@@ -1,5 +1,6 @@
 ---
 title: Deploy a Docker container with SSH access
+description: "How to create and deploy a Docker container with SSH access using a custom Dockerfile on Ubuntu."
 author: lamngockhuong
 date: 2022-09-20 18:20:00 +0700
 categories: [System & OS, Linux]

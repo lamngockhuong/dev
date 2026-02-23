@@ -1,5 +1,6 @@
 ---
 title: Safely Update Linux Package Managers
+description: "Portable Bash script to safely update all major Linux package managers across distributions including APT, DNF, Pacman, and more."
 author: lamngockhuong
 date: 2025-05-17 22:15:00 +0700
 categories: [System & OS, Linux]

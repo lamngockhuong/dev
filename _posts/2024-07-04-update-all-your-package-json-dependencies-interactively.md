@@ -1,5 +1,6 @@
 ---
 title: Update all your package.json dependencies interactively
+description: "How to interactively update package.json dependencies using Yarn, pnpm, and npm upgrade commands."
 author: lamngockhuong
 date: 2024-07-04 11:30:00 +0700
 categories: [Programming Languages, NodeJS]

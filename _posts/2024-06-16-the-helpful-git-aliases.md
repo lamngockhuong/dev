@@ -1,5 +1,6 @@
 ---
 title: The helpful Git Aliases
+description: "Useful Git aliases to speed up your workflow including shortcuts for log, checkout, branch, commit, and more."
 author: lamngockhuong
 date: 2024-06-16 19:00:00 +0700
 categories: [Tools & Dev Utilities, Git]

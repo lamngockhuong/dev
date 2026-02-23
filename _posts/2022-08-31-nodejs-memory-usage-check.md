@@ -1,5 +1,6 @@
 ---
 title: NodeJS memory usage check
+description: "Simple Node.js utility function to check and format memory usage stats using process.memoryUsage()."
 author: lamngockhuong
 date: 2022-08-31 13:25:00 +0700
 categories: [Programming Languages, NodeJS]

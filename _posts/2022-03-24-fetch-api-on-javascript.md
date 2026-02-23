@@ -1,5 +1,6 @@
 ---
 title: Fetch API on Javascript
+description: "Guide to using the JavaScript Fetch API for HTTP requests with POST method examples and configuration options."
 author: lamngockhuong
 date: 2022-03-24 18:15:00 +0700
 categories: [Programming Languages, Javascript]

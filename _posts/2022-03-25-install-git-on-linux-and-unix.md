@@ -1,5 +1,6 @@
 ---
 title: Install Git on Linux and Unix
+description: "Step-by-step instructions to install Git on Debian, Ubuntu, and Alpine Linux distributions."
 author: lamngockhuong
 date: 2022-03-25 11:10:00 +0700
 categories: [Tools & Dev Utilities, Git]
