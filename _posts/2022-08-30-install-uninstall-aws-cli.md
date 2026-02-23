@@ -7,6 +7,7 @@ categories: [Cloud & Hosting, AWS]
 tags: [aws, ubuntu, aws-cli, linux]
 image:
   path: /posts/2023/10/aws.png
+  alt: "Installing and managing AWS CLI on Linux"
   width: 800
   height: 500
 ---

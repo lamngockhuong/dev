@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Git]
 tags: [git, linux, unix, ubuntu]
 image:
   path: /posts/2023/10/linux.png
+  alt: "Installing Git on Linux and Unix systems"
   width: 800
   height: 500
 ---

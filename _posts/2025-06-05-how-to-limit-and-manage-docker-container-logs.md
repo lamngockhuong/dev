@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Docker]
 tags: [linux, docker, ubuntu]
 image:
   path: /posts/2023/10/docker.png
+  alt: "Managing and limiting Docker container log sizes"
   width: 800
   height: 500
 ---

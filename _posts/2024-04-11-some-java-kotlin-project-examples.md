@@ -7,6 +7,7 @@ categories: [Programming Languages, Java]
 tags: [java, kotlin, example, spring]
 image:
   path: /posts/2023/10/java.png
+  alt: "Java and Kotlin project examples with Spring Boot"
   width: 800
   height: 500
 ---

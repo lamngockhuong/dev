@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript, array, tips, tricks]
 image:
   path: /posts/2023/10/js.png
+  alt: "JavaScript array manipulation tips and tricks"
   width: 800
   height: 500
 ---

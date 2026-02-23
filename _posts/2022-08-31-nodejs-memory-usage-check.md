@@ -7,6 +7,7 @@ categories: [Programming Languages, NodeJS]
 tags: [nodejs, memory]
 image:
   path: /posts/2023/10/nodejs.png
+  alt: "Checking Node.js memory usage with process.memoryUsage"
   width: 800
   height: 500
 ---

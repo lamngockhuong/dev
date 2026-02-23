@@ -7,6 +7,7 @@ categories: [Database]
 tags: [mysql, postgresql, docker]
 image:
   path: /posts/2023/10/sql.png
+  alt: "Database backup and restore commands for MySQL and PostgreSQL"
   width: 800
   height: 500
 ---

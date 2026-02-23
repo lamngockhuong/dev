@@ -7,6 +7,7 @@ categories: [Database]
 tags: [mysql, postgres]
 image:
   path: /posts/2023/10/sql.png
+  alt: "Terminating database connections in PostgreSQL and MySQL"
   width: 800
   height: 500
 ---

@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Git]
 tags: [git, github]
 image:
   path: /posts/2023/10/git.png
+  alt: "Managing multiple GitHub accounts with SSH on macOS"
   width: 800
   height: 500
 ---

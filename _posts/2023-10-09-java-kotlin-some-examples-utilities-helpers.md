@@ -7,6 +7,7 @@ categories: [Programming Languages, Jvm]
 tags: [jvm, java, kotlin]
 image:
   path: /posts/2023/10/java.png
+  alt: "Java and Kotlin utility examples and helpers"
   width: 800
   height: 500
 ---

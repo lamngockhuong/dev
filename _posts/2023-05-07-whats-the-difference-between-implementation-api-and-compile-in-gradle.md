@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Gradle]
 tags: [implementation, api, compile, compileonly, runtimeonly, testimplementation, testcompileonly, testruntimeonly]
 image:
   path: /posts/2023/10/gradle.png
+  alt: "Gradle dependency configurations comparison"
   width: 800
   height: 500
 ---

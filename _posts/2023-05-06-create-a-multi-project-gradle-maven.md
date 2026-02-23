@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Gradle]
 tags: [gradle, maven, java, kotlin]
 image:
   path: /posts/2023/10/gradle.png
+  alt: "Setting up multi-project builds with Gradle and Maven"
   width: 800
   height: 500
 ---

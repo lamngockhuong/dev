@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript, regex]
 image:
   path: /posts/2023/10/js.png
+  alt: "JavaScript regex gi modifier explained"
   width: 800
   height: 500
 ---

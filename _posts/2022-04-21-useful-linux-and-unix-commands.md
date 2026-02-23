@@ -7,6 +7,7 @@ categories: [System & OS, Linux]
 tags: [linux, unix, commands, ubuntu, debian, alpine]
 image:
   path: /posts/2023/10/linux.png
+  alt: "Useful Linux and Unix command reference"
   width: 800
   height: 500
 ---

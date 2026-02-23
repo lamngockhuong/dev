@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript, promise]
 image:
   path: /posts/2023/10/js.png
+  alt: "Comparing JavaScript Promise.all and Promise.allSettled"
   width: 800
   height: 500
 ---

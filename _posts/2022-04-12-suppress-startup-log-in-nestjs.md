@@ -7,6 +7,7 @@ categories: [Frameworks & Libraries, NestJS]
 tags: [nestjs, javascript, typescript, log]
 image:
   path: /posts/2023/10/nodejs.png
+  alt: "Suppressing NestJS startup logs with custom logger"
   width: 800
   height: 500
 ---

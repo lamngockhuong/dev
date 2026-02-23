@@ -7,6 +7,7 @@ categories: [Programming Languages, PowerShell]
 tags: [windows, sql, powershell]
 image:
   path: /posts/2024/04/powershell.jpg
+  alt: "Running SQL commands from Windows PowerShell"
   width: 800
   height: 500
 ---

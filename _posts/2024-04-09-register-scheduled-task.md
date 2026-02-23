@@ -7,6 +7,7 @@ categories: [Programming Languages, PowerShell]
 tags: [windows, powershell, scheduled]
 image:
   path: /posts/2024/04/powershell.jpg
+  alt: "Registering scheduled tasks with PowerShell"
   width: 800
   height: 500
 ---

@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Postman]
 tags: [linux, ubuntu, postman]
 image:
   path: /posts/2023/10/linux.png
+  alt: "Installing Postman on Linux"
   width: 800
   height: 500
 ---

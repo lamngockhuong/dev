@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript, sql, postgresql]
 image:
   path: /posts/2023/10/js.png
+  alt: "Escaping special characters in PostgreSQL LIKE expressions"
   width: 800
   height: 500
 ---

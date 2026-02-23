@@ -7,6 +7,7 @@ categories: [System & OS, Linux]
 tags: [linux, ubuntu]
 image:
   path: /posts/2023/10/linux.png
+  alt: "Creating and configuring a new Linux user"
   width: 800
   height: 500
 ---

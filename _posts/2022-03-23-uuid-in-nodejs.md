@@ -7,6 +7,7 @@ categories: [Programming Languages, NodeJS]
 tags: [javascript, uuid, nodejs]
 image:
   path: /posts/2023/10/js.png
+  alt: "Generating UUIDs in Node.js"
   width: 800
   height: 500
 ---

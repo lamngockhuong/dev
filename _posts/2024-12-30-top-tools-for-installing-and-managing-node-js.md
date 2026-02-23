@@ -7,6 +7,7 @@ categories: [Programming Languages, NodeJS]
 tags: [nodejs, node, manager]
 image:
   path: /posts/2023/10/nodejs.png
+  alt: "Top tools for managing Node.js versions"
   width: 800
   height: 500
 ---

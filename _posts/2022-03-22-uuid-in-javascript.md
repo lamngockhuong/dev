@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript, uuid]
 image:
   path: /posts/2023/10/js.png
+  alt: "Generating UUIDs in JavaScript"
   width: 800
   height: 500
 ---

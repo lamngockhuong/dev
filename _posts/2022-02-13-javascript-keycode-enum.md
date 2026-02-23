@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript]
 image:
   path: /posts/2023/10/js.png
+  alt: "JavaScript keyboard keycode enum reference"
   width: 800
   height: 500
 ---

@@ -7,6 +7,7 @@ categories: [Programming Languages, Java]
 tags: [java, jdk, website]
 image:
   path: /posts/2023/10/java.png
+  alt: "Helpful websites and resources for Java developers"
   width: 800
   height: 500
 ---

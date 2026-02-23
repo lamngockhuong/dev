@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript, fetchapi]
 image:
   path: /posts/2023/10/js.png
+  alt: "JavaScript Fetch API usage examples"
   width: 800
   height: 500
 ---

@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Docker]
 tags: [docker]
 image:
   path: /posts/2023/10/docker.png
+  alt: "Disabling Docker container auto-start restart policy"
   width: 800
   height: 500
 ---

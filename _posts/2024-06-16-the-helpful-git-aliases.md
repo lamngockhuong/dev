@@ -7,6 +7,7 @@ categories: [Tools & Dev Utilities, Git]
 tags: [git, tips]
 image:
   path: /posts/2023/10/git.png
+  alt: "Useful Git aliases for faster workflow"
   width: 800
   height: 500
 ---

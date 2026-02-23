@@ -7,6 +7,7 @@ categories: [Programming Languages, PowerShell]
 tags: [windows, powershell, java]
 image:
   path: /posts/2024/04/powershell.jpg
+  alt: "Helpful PowerShell functions and commands"
   width: 800
   height: 500
 ---

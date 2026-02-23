@@ -7,6 +7,7 @@ categories: [Programming Languages, Javascript]
 tags: [javascript, interview, question]
 image:
   path: /posts/2023/10/js.png
+  alt: "JavaScript interview questions and answers"
   width: 800
   height: 500
 ---

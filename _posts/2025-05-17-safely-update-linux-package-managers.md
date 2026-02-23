@@ -7,6 +7,7 @@ categories: [System & OS, Linux]
 tags: [linux, unix, commands, ubuntu, debian, alpine, update]
 image:
   path: /posts/2023/10/linux.png
+  alt: "Safely updating Linux package managers across distributions"
   width: 800
   height: 500
 ---

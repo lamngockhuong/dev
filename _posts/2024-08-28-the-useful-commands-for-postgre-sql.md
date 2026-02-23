@@ -7,6 +7,7 @@ categories: [Database, PostgreSQL]
 tags: [postgresql, psql]
 image:
   path: /posts/2024/08/postgresql.png
+  alt: "Essential PostgreSQL commands and psql tips"
   width: 800
   height: 500
 ---

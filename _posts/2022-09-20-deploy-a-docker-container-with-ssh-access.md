@@ -7,6 +7,7 @@ categories: [System & OS, Linux]
 tags: [linux, docker, ubuntu, ssh]
 image:
   path: /posts/2023/10/docker.png
+  alt: "Deploying a Docker container with SSH access"
   width: 800
   height: 500
 ---

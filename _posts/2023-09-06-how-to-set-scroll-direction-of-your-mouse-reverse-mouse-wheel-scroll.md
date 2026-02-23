@@ -7,6 +7,7 @@ categories: [System & OS, Windows]
 tags: [windows 10, config, mouse]
 image:
   path: /posts/2023/10/windows.png
+  alt: "Reversing mouse scroll direction on Windows"
   width: 800
   height: 500
 ---

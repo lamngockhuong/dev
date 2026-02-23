@@ -7,6 +7,7 @@ categories: [Cloud & Hosting, AWS]
 tags: [aws, ec2, cli, linux]
 image:
   path: /posts/2023/10/aws.png
+  alt: "AWS CLI commands for EC2 instance management"
   width: 800
   height: 500
 ---

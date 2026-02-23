@@ -7,6 +7,7 @@ categories: [Security]
 tags: [javascript, security, timing attack, api keys, tokens, signatures, constant time comparison]
 image:
   path: /posts/2025/07/security.png
+  alt: "Timing attack vulnerability when comparing secrets"
   width: 800
   height: 500
 ---

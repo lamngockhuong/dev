@@ -7,6 +7,7 @@ categories: [Programming Languages, Java]
 tags: [java, jdk, macos]
 image:
   path: /posts/2023/10/java.png
+  alt: "Switching Java JDK versions on macOS"
   width: 800
   height: 500
 ---

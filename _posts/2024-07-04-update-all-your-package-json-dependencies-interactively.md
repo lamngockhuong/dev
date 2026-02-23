@@ -7,6 +7,7 @@ categories: [Programming Languages, NodeJS]
 tags: [javascript, yarn, pnpm, npm, package, dependencies]
 image:
   path: /posts/2023/10/js.png
+  alt: "Updating package.json dependencies interactively"
   width: 800
   height: 500
 ---

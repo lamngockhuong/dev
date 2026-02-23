@@ -7,6 +7,7 @@ categories: [Database, Redis]
 tags: [redis]
 image:
   path: /posts/2024/09/redis.png
+  alt: "Useful Redis commands and redis-cli operations"
   width: 800
   height: 500
 ---
