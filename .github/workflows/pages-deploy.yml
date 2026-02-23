@@ -8,6 +8,9 @@ on:
       - .gitignore
       - README.md
       - LICENSE
+      - CLAUDE.md
+      - "plans/**"
+      - "docs/**"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
