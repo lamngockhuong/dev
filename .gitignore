@@ -28,3 +28,6 @@ plans/
 # Misc
 _sass/vendors
 assets/js/dist
+
+# AI
+.claude/
