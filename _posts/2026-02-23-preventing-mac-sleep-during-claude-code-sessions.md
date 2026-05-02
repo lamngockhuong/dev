@@ -148,7 +148,7 @@ chmod +x ~/.claude/hooks/prevent-sleep.sh ~/.claude/hooks/allow-sleep.sh
 | **Multiple tabs**  | Each tab has its own session file (`$PPID`), no shared state conflicts        |
 | **Race condition** | Per-session files instead of shared counter, no read-modify-write race        |
 | **Claude crash**   | `-t 3600` timeout auto-kills caffeinate; stale session files cleaned next run |
-| **Counter drift**  | No counter — active sessions counted from actual files + process verification |
+| **Counter drift**  | No counter - active sessions counted from actual files + process verification |
 | **Stale sessions** | Both scripts prune session files whose process no longer exists               |
 | **Reboot**         | `/tmp` is cleared automatically by macOS                                      |
 

@@ -304,12 +304,12 @@ Where `URL` is a URL to a video file e.g. `/path/to/sample/video.mp4`.
 
 You can also specify additional attributes for the embedded video file. Here is a full list of attributes allowed.
 
-- `poster='/path/to/poster.png'` — poster image for a video that is shown while video is downloading
-- `title='Text'` — title for a video that appears below the video and looks same as for images
-- `autoplay=true` — video automatically begins to play back as soon as it can
-- `loop=true` — automatically seek back to the start upon reaching the end of the video
-- `muted=true` — audio will be initially silenced
-- `types` — specify the extensions of additional video formats separated by `|`. Ensure these files exist in the same directory as your primary video file.
+- `poster='/path/to/poster.png'` - poster image for a video that is shown while video is downloading
+- `title='Text'` - title for a video that appears below the video and looks same as for images
+- `autoplay=true` - video automatically begins to play back as soon as it can
+- `loop=true` - automatically seek back to the start upon reaching the end of the video
+- `muted=true` - audio will be initially silenced
+- `types` - specify the extensions of additional video formats separated by `|`. Ensure these files exist in the same directory as your primary video file.
 
 Consider an example using all of the above:
 
@@ -338,8 +338,8 @@ Where `URL` is a URL to an audio file e.g. `/path/to/audio.mp3`.
 
 You can also specify additional attributes for the embedded audio file. Here is a full list of attributes allowed.
 
-- `title='Text'` — title for an audio that appears below the audio and looks same as for images
-- `types` — specify the extensions of additional audio formats separated by `|`. Ensure these files exist in the same directory as your primary audio file.
+- `title='Text'` - title for an audio that appears below the audio and looks same as for images
+- `types` - specify the extensions of additional audio formats separated by `|`. Ensure these files exist in the same directory as your primary audio file.
 
 Consider an example using all of the above:
 

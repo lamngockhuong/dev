@@ -27,13 +27,13 @@ bash tools/test.sh
 
 ## Architecture
 
-- **Theme**: `jekyll-theme-chirpy` gem — layouts, includes, and assets come from the gem, not this repo
-- **Posts**: `_posts/` — Markdown files named `YYYY-MM-DD-slug.md` with YAML front matter
-- **Tabs**: `_tabs/` — Top-level pages (about, archives, categories, tags) ordered via `order` front matter
-- **Data**: `_data/` — `authors.yml`, `contact.yml`, `share.yml` consumed by theme layouts
-- **Plugin**: `_plugins/posts-lastmod-hook.rb` — Auto-sets `last_modified_at` from git log on posts with >1 commit
+- **Theme**: `jekyll-theme-chirpy` gem - layouts, includes, and assets come from the gem, not this repo
+- **Posts**: `_posts/` - Markdown files named `YYYY-MM-DD-slug.md` with YAML front matter
+- **Tabs**: `_tabs/` - Top-level pages (about, archives, categories, tags) ordered via `order` front matter
+- **Data**: `_data/` - `authors.yml`, `contact.yml`, `share.yml` consumed by theme layouts
+- **Plugin**: `_plugins/posts-lastmod-hook.rb` - Auto-sets `last_modified_at` from git log on posts with >1 commit
 - **Images**: Stored in separate repo (`lamngockhuong/dev-images`), served via CDN configured in `_config.yml` (`cdn` key). Local `assets/img/` only has favicons
-- **CI/CD**: `.github/workflows/pages-deploy.yml` — builds with Ruby 3.3, runs html-proofer, deploys to GitHub Pages, then purges Cloudflare cache
+- **CI/CD**: `.github/workflows/pages-deploy.yml` - builds with Ruby 3.3, runs html-proofer, deploys to GitHub Pages, then purges Cloudflare cache
 
 ## Writing Posts
 
@@ -51,7 +51,7 @@ tags: [tag1, tag2]
 - Permalink pattern: `/posts/:title/`
 - Comments via Giscus (auto-enabled for all posts)
 - TOC enabled globally
-- Images referenced with `/path/from/cdn-root` — the CDN prefix is prepended automatically
+- Images referenced with `/path/from/cdn-root` - the CDN prefix is prepended automatically
 
 ## Key Config Notes
 

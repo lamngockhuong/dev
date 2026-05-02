@@ -87,7 +87,7 @@ sudo find /var/lib/docker/containers/ -name "*.log" -exec du -h {} + | sort -hr 
 ```
 
 **That's it!**
-Now your Docker containers will no longer silently consume your disk space. Log management is crucial for performance, monitoring, and maintenance — and it only takes a few minutes to set up properly.
+Now your Docker containers will no longer silently consume your disk space. Log management is crucial for performance, monitoring, and maintenance - and it only takes a few minutes to set up properly.
 
 ## References
 
