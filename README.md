@@ -2,7 +2,7 @@
 
 Personal tech blog at [dev.ngockhuong.com](https://dev.ngockhuong.com) - developer notes and tutorials.
 
-Powered by [Jekyll][jekyll] with [Chirpy][chirpy-theme] theme (v7.4+). Deployed to GitHub Pages via Cloudflare.
+Powered by [Jekyll][jekyll] with [Chirpy][chirpy-theme] theme (v7.5+). Deployed to GitHub Pages via Cloudflare.
 
 ## Setup
 
