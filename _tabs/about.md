@@ -1,41 +1,32 @@
 ---
 title: About
-description: Personal developer blog by Lam Ngoc Khuong - NestJS, DevOps, and more.
+description: Developer notebook by Lam Ngoc Khuong - tutorials and notes on NestJS, DevOps, web development, and more.
 icon: fas fa-info-circle
 order: 4
 ---
 
-
-> Hi! Glad to see you here. I'm Khuong
+> Hi! Glad to see you here. I'm Khuong.
 {: .prompt-tip }
 
-I created this site firstly for my personal note taking and now, I wanna share it with you. For me, people cannot remember everything, you must take note what you have learnt. It’s useful if you can put your note online and you are able to see it everytime, everywhere with just a phone. That’s the reason why this site was born.
+I'm a software engineer based in Vietnam with over a decade of building systems and leading engineering teams. These days I focus on shipping small, useful tools and prefer predictable systems over trendy stacks.
 
-[[Buy me a coffee](https://paypal.me/lamngockhuong)][[Momo](https://me.momo.vn/khuong)]
+## 📒 About this site
 
-## 📁 Portfolio
+This is my personal notebook. People can't remember everything, so I write things down: tutorials, tips, gotchas, and lessons learned. Putting it online means I can revisit any note from anywhere with just a phone, and hopefully it helps someone else along the way.
 
-### Project 1: **[NestJS Boilerplate](https://github.com/vndevteam/nestjs-boilerplate)**
+Topics you'll find here: software engineering, web development, NestJS, DevOps, and the tools I use day to day.
 
-- **Description**: NestJS boilerplate for a typical project with pre-configured features.
-- **Technologies**: `NestJS`, `TypeORM`, `ExpressJS`, `Jest`, `I18n`, `Pino` & `Vuepress docs`, etc.
-- **Role**: Lead Developer / Main Contributor
-- **Key Achievements**:
-  - Modular architecture for easy feature integration.
-  - JWT-based authentication with role-based access control.
-  - Integrated Jest for comprehensive testing.
-  - Efficient logging setup with Pino.
-  - Queue management with BullMQ for background tasks.
-  - Swagger for automatic API documentation.
+## 🔗 Elsewhere
 
-### Project 2: **[NestJS Turbo Monorepo](https://github.com/vndevteam/nestjs-turbo)**
+- **Portfolio, builds, and CV** → [khuong.dev](https://khuong.dev)
+- **GitHub** → [@lamngockhuong](https://github.com/lamngockhuong)
+- **LinkedIn** → [lamngockhuong](https://www.linkedin.com/in/lamngockhuong)
 
-- **Description**: A monorepo boilerplate for managing multiple NestJS services efficiently with shared libraries.
-- **Technologies**: `NestJS`, `Fastify`, `Turbo`, `pnpm`, `TypeORM`, `Jest`
-- **Role**: Project Maintainer / Lead Developer
-- **Key Achievements**:
-  - Monorepo setup with Turbo for scalable service management.
-  - Shared libraries for reusable code across services.
-  - Optimized build and dependency management with pnpm.
-  - Centralized configuration and streamlined CI/CD setup.
-  - Testing setup with Jest for consistent testing across all services.
+## ☕ Support
+
+If my notes have helped you, consider supporting:
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-Support-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/lamngockhuong)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/lamngockhuong)
+[![PayPal](https://img.shields.io/badge/PayPal-Support-00457C?logo=paypal&logoColor=white)](https://paypal.me/lamngockhuong)
+[![MoMo](https://img.shields.io/badge/MoMo-Support-ae2070)](https://me.momo.vn/khuong)
